@@ -1,0 +1,730 @@
+commit,tree,parent,author,author_time,author_tz,committer,committer_time,committer_tz,message
+00068789555dbe4c6aff671288cb40ead8bf9105,2331e07c0d80174bdbd36457128e47d9f79edcd6,['87886a897ec6c7da0fee38cf8ba266a52c76dc65'],Binbin Zhang <binbzha@qq.com>,1651152697,+0800,Binbin Zhang <binbzha@qq.com>,1651152697,+0800,"[binding]: add python binding
+"
+000c7af5c36afafd3fa3ae4599af237e902c67bb,634e826cace15c002e2d0820a9a961af4e8111b5,['980507ecaba296a363ddb9a1cd8f93be6b2e8b50'],Mddct <hamddct@gmail.com>,1697436927,+0800,Mddct <hamddct@gmail.com>,1697785167,+0800,"[cli/paraformer]   ali-paraformer load and infer work
+"
+00142a006a0845fc83e0e9b103fc9e2b1ee25420,4461991c3938625fe3e3f82ee945a1cc087a2aa4,['7a086b8d8a7e18af7c93f4891f4d088ed416f0cc'],robin1001 <robin1001@users.noreply.github.com>,1612274843,+0000,robin1001 <robin1001@users.noreply.github.com>,1612274843,+0000,"Automated deployment: Tue Feb  2 14:07:23 UTC 2021 df6232a7ed6a80ba09d9e20a7fd0f401e276a760
+"
+003277de21ab47572e15e7d42d20ac8255e78fcc,077de8480cf22df769fa38e1772367435c151905,['e828827ec999e818b2561f1727254c09d256d406'],Binbin Zhang <binbzha@qq.com>,1651395445,+0800,Binbin Zhang <binbzha@qq.com>,1651395445,+0800,"try cibuildwheel
+"
+003766d4031504c1d84077211355a16896b6b6b9,ec2eb40b05722eb023db55d5961b9613b4e13755,['262d354aeaeef0c2be7b471d9991ce5dc60df6e3'],zhyyao <94102052+zhyyao@users.noreply.github.com>,1657845908,+0800,GitHub <noreply@github.com>,1657845908,+0800,"[rnnt] beamsearch (#1302)
+
+* rnnt prefix beam search & ctc+rnnt generation nbest for rnnt attn rescore
+
+* fix lint
+
+* fix lint
+
+* fix lint
+
+* fix lint
+
+* fix lint
+
+* fix lint
+
+* fix lint
+
+* add __slot__ to Sequence to save memory
+
+* fix lint
+
+* run.sh fixed
+
+* fix args name
+
+* fix arg question
+
+* fix help description
+
+* fix lint
+
+* fix a bug
+
+* fix a bug
+
+* fix prefix beam search bug"
+0045ecc97b48c89ea6a61ea8880cc39b98acc071,efac243516d28679fc5fd7c9eb6ad7474389a1c3,['9e458b786278d9d1616e72f1b49df1f7e49e7509'],chwma0 <75061355+chwma0@users.noreply.github.com>,1615813560,-0500,GitHub <noreply@github.com>,1615813560,+0800,"[feat] add post process for enu because of using bpe model (#211)
+
+* [feat] add post process for enu because of using bpe model
+
+* [fix] Ignore tailing space
+
+* [fix] create function for post processer
+
+* [fix] call post processer
+
+* [fix] modify function name for process blank"
+004d05ec0ec71168549f68ce55c108b5208926de,a2626e96c03e694206df74401451ce431e1c5b6b,['c7eabb560a4496cd28ff6709cbbd0bdf2f3c561f'],Binbin Zhang <811364747@qq.com>,1609323904,+0800,GitHub <noreply@github.com>,1609323904,+0800,"[doc] add runtime doc (#36)
+
+* add runtime readme
+
+Change-Id: I8d657914164044b0ab9672626575f294471a7e80
+
+* add gif, refine path
+
+Change-Id: Ibf4b29060d12455e85b48906288f5d26871293f0"
+0071c979daeaba73bd99e1dd61db1b3c59316548,0e7ea7a59ed1d54f92a4cea3f0ab15fbf1f0002b,['41965c2ea9201187bcaea81fbdd5395570ec9dee'],Nickolay Shmyrev <nshmyrev@gmail.com>,1661260017,+0200,Nickolay Shmyrev <nshmyrev@gmail.com>,1661260017,+0200,"Allow zero warmup steps
+"
+0073633ed9bfe379a5f177dcb58acc320bc41ea3,e226cfba211ce630bf4e5c99c8bc4597383eb960,['6caad0218d28761f6aac3fea5db089bf896dfd2e'],xianchao wu <wuxianchao@gmail.com>,1639705724,+0000,xianchao wu <wuxianchao@gmail.com>,1639705724,+0000,"rm chinese comments and rm temp result files from testing outputs
+"
+00778124ce6589c737dcb39c705186993a5071c1,542ffc5a020ddc7f9307e33048e4307bde2b863f,['26ce2caf34326a53cd71fe8c5cdf9ec7d89bf81f'],Binbin Zhang <811364747@qq.com>,1613722625,+0800,Binbin Zhang <811364747@qq.com>,1613722625,+0800,"refine quote
+"
+0089cb8e0f2708ab02f2b32ab2b6938620d57897,932059c0496d2fd697353140c6efa012312c2c83,['17a1daeadf3fe25263f7b2992137bea308f8ef8b'],Mddct <hamddct@gmail.com>,1657194562,+0800,GitHub <noreply@github.com>,1657194562,+0800,[transducer] aishell more epoch
+0097f99de1550770b7ba7a076f6cfad565052dd6,32138e54c365176bbacb79a78f53a699d2f3e82b,['1c0890fec97a6787d422231f3fc97a0cb1567e88'],YHElaina <68215459+yhliangElaina@users.noreply.github.com>,1635605189,+0800,GitHub <noreply@github.com>,1635605189,+0800,"fix recognize's batch type (#753)
+
+"
+009be4366fbb3f384a316ec73beb6efec8ff7c3a,c63f2f8ec4a08a9438b6fb6bc2d8087a90fc13a6,['35e0a1c3994142d45cf3f902fe1718db7b79a160'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1710163811,+0800,GitHub <noreply@github.com>,1710163811,+0800,"[lint] fix linter version (#2405)
+
+"
+00a35c893a82eed5cb51e9171d3915e6b11d63b7,81c8a4f486c9b3b41703521da2b476fe07980bb7,['9cdaa1ceb166c7374eb89323966acc7a86912724'],robin1001 <robin1001@users.noreply.github.com>,1611308935,+0000,robin1001 <robin1001@users.noreply.github.com>,1611308935,+0000,"Automated deployment: Fri Jan 22 09:48:55 UTC 2021 107fe564f77c4a72d89f953f4acb203ab63be75a
+"
+00a58c9e29378ccc58151d229138c48233ca1801,d590ff6115f3c3a6f18c96e8c2a98d108e0c4d02,['0adc9d0dd44ea64d89a24f88e397f2500c4387b8'],Mddct <hamddct@gmail.com>,1706156549,+0800,Mddct <hamddct@gmail.com>,1706156549,+0800,"add all related unit test for processor.py
+"
+00a9d7bf1ada92088e63a86b5e3bf601947e6def,ca593fb16e8f4e5f20ddbeadcb2e9d45b0c9dac3,['da451871b9e9502cc0e113f16e77c9a42deb8664'],xingchensong <xingchensong1996@163.com>,1652748425,+0800,xingchensong <xingchensong1996@163.com>,1652748425,+0800,"[model] add doc
+"
+00acd359f59aa0e586618996a7823af1e5779fec,f03634db66dae36835ada60d3d1b15b5fd8d5735,['e8966ea2decabd70ec6e82346705514d73c44620'],xiangru.meng <meng1984>,1692931439,+0800,xiangru.meng <meng1984>,1692931439,+0800,"first commit
+"
+00b29f1fa8fe8ae2ad6156b90c1e0bfab85a9fc2,0ca7f05206112d6110dbd9118d9eff64eff2cb7d,['ab22ddc7ec92a808b8999c93ed0327b9ab59d79a'],jinsongpan <761086340@qq.com>,1638675446,+0800,jinsongpan <761086340@qq.com>,1638675446,+0800,"modify UIO.md format
+"
+00c2d686e8c1b456c36b4efd091e379ff842d752,8e110cf17bebcb279a37ca1c0a75b01b88ce79bc,['9b7728de35340a014a2774d62ab32fa66d06b250'],Mddct <Mddct@users.noreply.github.com>,1713343374,+0000,Mddct <Mddct@users.noreply.github.com>,1713343374,+0000,"Automated deployment: Wed Apr 17 08:42:54 UTC 2024 482587987fd753332ce7de35e30e38c29f0cfe12
+"
+00c4057cfb0fdb2ae2d8639f1824b442d1b2c316,cd6ca566a5d7d9a105a8b57a3653d7c5e826e9d4,['9e11855734075d3a2c0468f8a79c062970497620'],Mike Lei <mikelei@mobvoi.com>,1611296181,+0800,GitHub <noreply@github.com>,1611296181,+0800,Update Android demo readme.
+00d5fe4a9853ea67e890c72808d402d0b01c9d3b,edfafb0e93b6cbd3cb1a35249e3e6d56792ad93c,['a30dbb7c1d6cf121d90742fcf5ab2835757030f3'],xingchensong <xingchensong1996@163.com>,1713408257,+0800,xingchensong <xingchensong1996@163.com>,1713408257,+0800,"[transformer] set use_reentrant=False for gradient ckpt
+"
+00e0f168ed500e8f99de5dfe5d015ca06946c91b,f8403109c76db7ee8315ea0a03386a5be1fc4d4f,['cd9c93a01aa565310672dd9115d1a7fa837aec62'],shanguanma <maduo25@163.com>,1702965430,+0800,shanguanma <maduo25@163.com>,1702965430,+0800,"add moelayer class in /positionwise_feed_forward.py
+"
+00f19b71413632984251dda37f5b45153a42ab92,69f3d9d053c2164f60132276033349cc875a72d2,['8412f189ba531d6035a1bcbecf636a2e81e93647'],Di Wu <1176705630@qq.com>,1611681687,+0800,Di Wu <1176705630@qq.com>,1611682638,+0800,"[doc]&[tools] add librispeech recipe
+"
+00f4335d81fe54e10c792d6b62a4b7a6c44eb407,b90494492907379bc07981a3555bbce25a7fbe91,['960faffd9f27aca4f56ddaac43c96d5a8f073e80'],Yougen Yuan <yougenyuan@gmail.com>,1634021680,+0800,GitHub <noreply@github.com>,1634021680,+0800,Update README.md
+0100be5fd71f797982aea1f27f8920649395907d,09fbfec1e112abc50fb0c6f0ada59a2d7914d6ca,"['1cd74bb34a9bfe0092eb3271e44b7a271278a56f', '5e7989b5f04563e431120b4e2066e0e03c49e302']",彭震东 <275331498@qq.com>,1626950949,+0800,GitHub <noreply@github.com>,1626950949,+0800,"Merge pull request #533 from wenet-e2e/binbin-fix-context
+
+[network] fix right context error"
+010ff41c9913ef9d67085ecfac12b5016347fd4f,166a9657b43f0162c885930c9eac847bf381b44e,['ce4128b43de75a9c091b0ab668ffa6a4acb37fe8'],xingchensong <xingchensong1996@163.com>,1698285825,+0800,xingchensong <xingchensong1996@163.com>,1698285825,+0800,"refactor(deepspeed): formatting function args, add force sync barrier, skip 1st batch sync, step + 1 to calculate accum boundray
+"
+011c7c37a34bbd397c61d701cf22c1d90d816171,dacb5b0933d9fff092c292f2000e71d0a51612fe,['b64647a22b017a7ba08c677406a37446ea455127'],robin1001 <robin1001@users.noreply.github.com>,1670391969,+0000,robin1001 <robin1001@users.noreply.github.com>,1670391969,+0000,"Automated deployment: Wed Dec  7 05:46:09 UTC 2022 429736b4cd323324ec1617d1954c3cfa0ccbd455
+"
+011d4132aaa22e1f93fda2c7a9a1139b413f05ee,6bcc089b99c575f18fd44b0664e7cde002feccf4,['9c7b0d129b43ea7a64b93c60996fc45f2cd2a49c'],robin1001 <robin1001@users.noreply.github.com>,1621916151,+0000,robin1001 <robin1001@users.noreply.github.com>,1621916151,+0000,"Automated deployment: Tue May 25 04:15:51 UTC 2021 86fe24b4bab446549258e8a9e23f663c9ada32d9
+"
+012d55b26e1ce7b8b5656a32a3e165729730cabb,1cff9841e8e5f32f36222b0d43708efa819fc7d5,['fd3b32b7dfc0b68d3c4ac0b6476d0fae5d32557b'],robin1001 <robin1001@users.noreply.github.com>,1632795783,+0000,robin1001 <robin1001@users.noreply.github.com>,1632795783,+0000,"Automated deployment: Tue Sep 28 02:23:03 UTC 2021 efe0bd85a82ed0acdd06e0f28178d6341e1e5274
+"
+012e76b80b06daed5d169097ad5af8a10a71a1c2,65a477cf10697413b31115c86a57fef5294f1da8,['e541418883a9a05d559dce06a52b8e8a55db4007'],Binbin Zhang <binbzha@qq.com>,1658368107,+0800,GitHub <noreply@github.com>,1658368107,+0800,[doc] add rnn-t in roadmap
+013794572a55c7d0dbea23a66106ccf3e5d3b8d4,8a1efe54084c2d1ca1aac6845dc1affdff320878,['f2cca117a3247ee14ce5e8c54d110c9e2594253f'],fanlu <fanlu7311@163.com>,1614146064,+0800,fanlu <fanlu7311@163.com>,1614146064,+0800,"[recipe] support multi_cn recipe
+"
+0141767f794191d7d10c694c838c22770e13e02a,1c88b79ac72a1c8dcbbcd45a19c4104bf802542c,['de8bbe24bc12245e12a0d38570c407af2fd1584d'],wd929 <dingwen929@gmail.com>,1670903362,+0800,wd929 <dingwen929@gmail.com>,1670903362,+0800,"Update README.md
+"
+0142cf9db9276c9e606d3aa344bf7ece183873ce,1335032c52e29fecc3c1746d446eab3576ede318,['ac9729763a8727231dfbee14b9f1f875864781bf'],Mddct <Mddct@users.noreply.github.com>,1679930710,+0000,Mddct <Mddct@users.noreply.github.com>,1679930710,+0000,"Automated deployment: Mon Mar 27 15:25:10 UTC 2023 54b6884a2384d76597d0cc368fe69df0ef58cbfd
+"
+01514d73bc0f1ae10af954f12d4d7de9fd16269f,94afdad9c6b227129a80af272e5cb35979fc5c50,"['0b82e535dc9897b86aa44f54ac021e637f1f2b53', '258c8cc26178593d66bbcc3c9b1a6dcb2a7599c6']",Di Wu <1176705630@qq.com>,1621844631,+0800,Di Wu <1176705630@qq.com>,1621844631,+0800,"Merge branch 'diwu-gigaspeech' of https://github.com/wenet-e2e/wenet into diwu-gigaspeech
+
+# Conflicts:
+#	examples/gigaspeech/s0/README.md
+"
+015961bbd338f4946048449b7c6159bcc05f7378,7059f4657e8b378e9f61138ee301e1e166eaee06,['5c300275fca1baa62fbcdf1c11e30bb286b9f395'],Binbin Zhang <811364747@qq.com>,1610440195,+0800,Binbin Zhang <811364747@qq.com>,1610440195,+0800,"fix chunk size help information
+
+Change-Id: I2737a9ae3360d7f47f56695ac68924bc093a5a8d
+"
+015b24bcda20fd2c755cc3aea73c2603f4c0901c,a401a6489c38427d6a8444d07b348e4d7648bc1e,['0d97bd7b27671a0d336afe27d12f77f6a0360c68'],zhendong.peng <zhendong.peng@horizon.ai>,1637046683,+0800,zhendong.peng <zhendong.peng@horizon.ai>,1637046683,+0800,"fix(runtime): fix bug of adding boundary to context
+"
+015c64517bd960d4ab73ac7307936e2cbd215635,ecaf438c285e7340ef5bfbf6b1aa22700e444bd3,['c3d37fddcb21b63217f6a0d860d5a1d8a6318fb9'],Binbin Zhang <811364747@qq.com>,1629860418,+0800,Binbin Zhang <811364747@qq.com>,1629860418,+0800,"[doc] using the latest pytorch and torchaudio by default
+"
+016cf5a49cda2ae5d79a41d3286812a6fa22e6fc,db3f37bfc5ccf2813a6303b83ae5db9a3b31fd8d,['bda6c86ff74d3ad257234a672d8a7bc4d0f32e81'],Binbin Zhang <binbzha@qq.com>,1655811081,+0800,Binbin Zhang <binbzha@qq.com>,1655811081,+0800,"[binding] refine doc and model url
+"
+017af3a22d77dce8a5c6a8330cfdababe289ee2a,b57ccf2815f1106e84d7b97f6a98a94f252f6d82,"['0b4a63d71801224c0bcdc433b48ebcbab80f456f', 'ac645aefecf141b6119aa5e8905963b9d88d56ea']",彭震东 <275331498@qq.com>,1620296618,+0800,GitHub <noreply@github.com>,1620296618,+0800,"Merge pull request #359 from mobvoi/binbin-arpa-lm
+
+[runtime] add arpa to fst binary"
+017fac5163cbd4b8f96fe15ebf2fd1cec2ef2be3,96703f083651a15a448eb90d8a58600024a882a8,['fb3622144c61e384083c6608366ddfdc4ea8c3f0'],Binbin Zhang <binbzha@qq.com>,1649158801,+0800,GitHub <noreply@github.com>,1649158801,+0800,"[doc] update referrence paper (#1011)
+
+"
+01853281bef79d05918cf37c9ba40a124fc75626,28bc32a565921a6ba3ccb321340344b11cf53060,['00068789555dbe4c6aff671288cb40ead8bf9105'],Binbin Zhang <binbzha@qq.com>,1651152952,+0800,Binbin Zhang <binbzha@qq.com>,1651152952,+0800,"refine lint
+"
+018a46dad51b5c06b57dd0d76ec091792e715a47,0029e9ace0b295bb3de12b5865734b3fac4cb175,['2821629e49caa6b094d6f83b9216b05ef7fa2917'],yuguang.yang@ximalaya.com <yuguang.yang@ximalaya.com>,1671194325,+0800,yuguang.yang@ximalaya.com <yuguang.yang@ximalaya.com>,1671194325,+0800,"[fix] inconsistence of batch decoding
+"
+019499fbb029d7dfbda63c8acc69f6d8ac52da57,fca2d420dd25dacc1b2bb17474a69c0a397f38ad,['e0b10a3592e178c422f2d43198cf15b4ab718797'],dujing <thuduj12@163.com>,1694145241,+0800,dujing <thuduj12@163.com>,1694145241,+0800,"fix cpplint
+"
+01996173435310cd8b5d7b2289766fea3efe5a1d,528967e4f0a82982fcecbd5a0eac3a2462e6ec05,['89a5d58f32b0938779c1c91c8582e83d54fd5806'],pengzhendong <275331498@qq.com>,1617350385,+0800,pengzhendong <275331498@qq.com>,1617350385,+0800,"[runtime] fix cpplint
+"
+019e3ce97e8a7702b40c759fa51cf79c1d48c175,cf2c4febadd8debac0af429785f079ab59b42ddf,['28dd50dd188377c31d0cc591eb93a75686b37edf'],彭震东 <275331498@qq.com>,1659164666,+0800,GitHub <noreply@github.com>,1659164666,+0800,"[workflows] update doc.yml (#1342)
+
+"
+01a96a7d462adb2930a933b08c5fa382560095fa,5c8fc5cdf66bcf76133958b3ef016aabb0c230fb,['02d8253a8cd5ec8a396cdf933b720f1e0fed12e8'],xingchensong <xingchensong@users.noreply.github.com>,1712321271,+0000,xingchensong <xingchensong@users.noreply.github.com>,1712321271,+0000,"Automated deployment: Fri Apr  5 12:47:51 UTC 2024 648fee879d1d00b3f998feab4ac19a34e738887f
+"
+01ada04ebc39680ae57128ef88c93635f826697f,c800f5a64a92d2b2a4c63a44e3a838f86597981d,['b8191cee9689c147b8611d79ef8309ee591e02bc'],Alan Fang <614478391@qq.com>,1712510935,+0800,GitHub <noreply@github.com>,1712510935,+0800,"LoRA support (#2049)
+
+* support lora for v3.0.1
+
+* format code and update lora attention && encoder
+
+* fix bug when lora_list is None
+
+---------
+
+Co-authored-by: Xingchen Song(宋星辰) <xingchensong1996@163.com>"
+01b78b45c741ba16fbd028e90ccc459d1dfd70aa,fcd4f54cc9044048a5f5d2bb8bbf98af0c648de9,['ce135a623e6685f4070f0c5c85c44d6ece1eb3ef'],Kai <kli017@ucr.edu>,1682659966,+0800,GitHub <noreply@github.com>,1682659966,+0800,Update run.sh
+01cabf38efbe9bd7f739c5fc3a9a61cc2118ed28,3edbf772038af6f0c487c78d676ac8416b22fbab,['694b478a51e559d7b2d91bb85c1f6c8ba941ad60'],Mddct <Mddct@users.noreply.github.com>,1721797491,+0000,Mddct <Mddct@users.noreply.github.com>,1721797491,+0000,"Automated deployment: Wed Jul 24 05:04:51 UTC 2024 edf065541e5f727319a669167ef029ee701307ba
+"
+01dcc6de42d6693a8df5df035f223f7773cd58a3,df7f78e31e75b728001e50bd7e12d94ab843dbe6,['6da56a034957041a7de5e9c28ed1483d79bae38f'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1692418682,+0800,GitHub <noreply@github.com>,1692418682,+0800,Update README.md
+01e73d69419b83d45ad2b72b451f4f63f46abd3c,57701db72f00767cbddc3d764ae08b6bfd1966a3,['fcf8347269468afe67bb82f3281a89c1b17fcca8'],Mddct <hamddct@gmail.com>,1705981048,+0800,Mddct <hamddct@gmail.com>,1705981048,+0800,"add unit for raw and shard source
+"
+01e8e54cd5cefbd56b5d083d9377216bbcabe04f,df7280d71d82b720b1cd71aec4c3a1ae37df7cca,['a91b4498d696d71151438125096054fb75f31d7d'],hzhou245 <hzhou245@bloomberg.net>,1706047403,-0500,hzhou245 <hzhou245@bloomberg.net>,1706047403,-0500,"Remove extra dump for debug
+"
+01ee0511d51d4aeaa5c00c5167bbe33df34f9b44,ef86a0ce0fc635feb8f5b7b3e5386b97f236ff1a,['4e9da62a15dd88b9c933cc59051c55e73042ab7d'],Dinghao Zhou <hamddct@gmail.com>,1713337061,+0800,GitHub <noreply@github.com>,1713337061,+0800,"[transformer] refactor cache (#2481)
+
+* [transformer] refactor cache
+
+* fix ut
+
+* unify cache type in branchformer and ebranchformer"
+01f2d63ad7738037463fa0fe23a6b0345dac1d50,81bb8ab534cd43a90dbd47a5bf9ef239ae5931a1,['bd22fae233455154db7ba4ead9361363d23351a2'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1715147572,+0800,GitHub <noreply@github.com>,1715147572,+0800,"Revert ""fix mp in DataLoader (#2506) (#2507)""
+
+This reverts commit 5576e6f4bf7da28232a60167b74cd0217df320d8.
+"
+0228877603e58c0d74e4cfabac358a73b74511b5,9db7e56b00e3f9187697add5f113132789d02f23,['a344f373381bd55851454cc3053f969d23ab1b7c'],Dinghao Zhou <hamddct@gmail.com>,1738846821,+0800,GitHub <noreply@github.com>,1738846821,+0800,"conformer support final norm configuable (#2682)
+
+"
+022eb04ef872282f8bd546424cc5ee17d8419333,2a34626cd5245594a6094188eeafe111f8a4ef40,['94a0a9d2a4b3751ee87dd37920be9bdc34525c93'],robin1001 <robin1001@users.noreply.github.com>,1620721152,+0000,robin1001 <robin1001@users.noreply.github.com>,1620721152,+0000,"Automated deployment: Tue May 11 08:19:12 UTC 2021 2f30cda0d71b845c1693ba4477c9256adf15e3b6
+"
+022eb9a799064d3b6f145fd83a2f51dcdf9f8c1d,23ecb2f306b8190820dd29be3f28e3f7ddd20a8e,['411b0afdc68f0a527eaef5344db00c6c8fa6f0cc'],xingchensong <xingchensong1996@163.com>,1712659627,+0800,xingchensong <xingchensong1996@163.com>,1712659627,+0800,"[env] fix lint
+"
+023e94dbd6b1b78aecd7799461369a8d9a5972bf,e8229926ed4aaccaca4d40be4fc1f54fe73d2ce5,['1ff987a4f7bd5cccb48be5701f7d2c99734c0bd9'],aydentang <aydentang@tencent.com>,1647346484,+0800,aydentang <aydentang@tencent.com>,1647346484,+0800,"wav2vec2 training
+"
+0243c306a17ac25eead6ebe2782c4af93d325604,2d6b464bcc4fa59e44d3cd3c4dd7c153535f1e4f,['1327b0eff4e998ac6370970af24c06ec0f0bdda1'],Nickolay Shmyrev <nshmyrev@gmail.com>,1625704648,+0200,Nickolay Shmyrev <nshmyrev@gmail.com>,1625704648,+0200,"Update to sox_io backend and replace deprecated load_wav with simple load
+"
+0264049920c5addb3127e525b72594dacfb7005e,a387d77cb206df44cb5c8b6b6a41e911765d2115,['0558fbbafeefa6df2cd34c77155282a290f3c55a'],yygle <yygle@qq.com>,1663246960,+0800,yygle <yygle@qq.com>,1663246960,+0800,"[update] enlarge adaptive scale dimensions
+"
+026bc0a858b96c7aed22ae3c45dba245c6a24d84,a3e7c73eaee6e072d576c73b06a0799f44a41bed,['2c141a206faf46b1dd689476a80813cf8a1e572d'],Mddct <hamddct@gmail.com>,1704477218,+0800,Mddct <hamddct@gmail.com>,1704477218,+0800,"[paraformer] timestamp works
+"
+027c85c32b9ec6eae31f059d427a3020cef4bc2f,b234a5a03236d3c27f346fd219cd4623823ad6f6,['ba7ed740bc21bac774717c3ba601e2bc5f17b1a3'],yygle <yygle@qq.com>,1663928100,+0800,yygle <yygle@qq.com>,1663928100,+0800,"[update] operators
+"
+02cc6c2521a66b60847f1d675f7133505b03fc07,8f1ade1c278436a388d0b97a8810e7f386870dfc,"['96587adf2b1c7f3554181217e6d7a09e75a3530b', 'f2fdf45ba2f0275f5cc47e4a634c4f0964c06752']",彭震东 <275331498@qq.com>,1616931482,+0800,GitHub <noreply@github.com>,1616931482,+0800,"Merge pull request #245 from mobvoi/binbin-torchaudio-version
+
+[doc] specify torchaudio version"
+02d283fc87e50c0418b02906ccb41c349c7c8a43,1b24ffc97fde40c0c1a61273faa79998cc5d895c,['ed069b02ef112346ae5c4f9a4cad8070de6d7454'],Mddct <hamddct@gmail.com>,1659012149,+0800,GitHub <noreply@github.com>,1659012149,+0800,Update README.md
+02d4c9c90ec1cad67cb72f985c0ba00c6c0972e9,36976b9dc04270dc0600f48c5cd44d07b8d91437,['e0b572b0dcea51476f930afe1b36360749e02a2f'],veelion <veelion@gmail.com>,1658289345,+0800,GitHub <noreply@github.com>,1658289345,+0800,"add concurrent performance testing for websocket_server_main (non-stream) (#1316)
+
+"
+02d8253a8cd5ec8a396cdf933b720f1e0fed12e8,5c8fc5cdf66bcf76133958b3ef016aabb0c230fb,['5f94b262a7ea27dc9b225a302e54fa8df2ba1d46'],xingchensong <xingchensong@users.noreply.github.com>,1712196332,+0000,xingchensong <xingchensong@users.noreply.github.com>,1712196332,+0000,"Automated deployment: Thu Apr  4 02:05:32 UTC 2024 4d12918774468616ce1e58ace03b93262451067e
+"
+02ddbed9406f35ee1720a710618c3a333d812250,d987d543e343aad436c573f5cf769e7320bed942,['874f5e3a86c0031ce045d22ac5d0f8215123a95a'],Di Wu <1176705630@qq.com>,1614010629,+0000,Di Wu <1176705630@qq.com>,1614325612,+0000,"[tools] add multiple machines training
+"
+02e2bee3f7965338543ed2a8930dc5b7e3be93a9,ddd56481cf6c033ec8bf8708018889378244b433,['546d6ec2e2fd9a14b95a93b3b8bbf1470ee70e94'],Binbin Zhang <binbzha@qq.com>,1652796704,+0800,Binbin Zhang <binbzha@qq.com>,1652796704,+0800,"fix path
+"
+02e975bcf3a1493029a4aafa3d902a9c3d6597e4,8530ec21a87d047d748b187338189dae9b3a97bd,['f5b6883eea3b5576619641beb9fdf619b51f77d6'],robin1001 <robin1001@users.noreply.github.com>,1609386725,+0000,robin1001 <robin1001@users.noreply.github.com>,1609386725,+0000,"Automated deployment: Thu Dec 31 03:52:05 UTC 2020 dd363055427f977d40a5815f05e3e59027854027
+"
+02f1a5fe85d7c62342dbc2900fdc1c643c4a148a,836e65ad48126330823ecd575aa79a27ef767ca8,['cd48b854e8a31ecc5944fbd2e7eaf794127b2228'],Binbin Zhang <binbzha@qq.com>,1632446059,+0800,GitHub <noreply@github.com>,1632446059,+0800,Update pretrained_models.md
+02f3f09407be4230a0911228c2261f9c106bebf2,8d8c8e3e8a2111c775d87e075004955e42129003,['015961bbd338f4946048449b7c6159bcc05f7378'],Binbin Zhang <811364747@qq.com>,1610447080,+0800,Binbin Zhang <811364747@qq.com>,1610447080,+0800,"resolve xiaoyu's comment
+
+Change-Id: Idadd1412d6486f41324ca4b10935d7120a06d4ba
+"
+02f637aa605ffaf17824545dc829ecac2fc30528,7b157a891b040b86b4c21a011735140685e529da,['8020a630804a5a35e975b7ae369b1eb1123d27a8'],Mddct <hamddct@gmail.com>,1660496102,+0800,GitHub <noreply@github.com>,1660496102,+0800,ctc optional branch
+030082b53c483791367717f2d245ae57d2b6520b,aaf00c4c19ee4ab5e7351042a1af9d783b7c7ea1,['27cba880f8ae76f03a510eaad71a0c0755f090ad'],Binbin Zhang <811364747@qq.com>,1611216643,+0800,Binbin Zhang <811364747@qq.com>,1611216643,+0800,"add x86 runtime aishell pretrained model and demo gif
+
+Change-Id: I531659ef97179fe37571d7377f9b0c4e6b30bec6
+"
+03030968258594d3522e562212b0ac87dbf9c889,2bb4d91837bbcb0ffff7139594e9078bc64565b5,['be6938433c04cb82177544fe3c2d059fa0b238be'],Chao Yang <385526069@qq.com>,1610707135,+0000,Chao Yang <385526069@qq.com>,1610707135,+0000,"fix comments
+"
+03068b8221411de24342569edd48ecc219acc8d1,e2cbd5a4f04e40fe6de5d19ff985c0bbd1370658,['c5ec7dac26994794fde385c870f316e401e91683'],Mddct <hamddct@gmail.com>,1708340975,+0800,Mddct <hamddct@gmail.com>,1708341245,+0800,"pass ut on  cpu
+"
+030a828e2cd3914f63a9ba8e6c26736c0993b488,40f95f93375fd3d6807ac28c29b0d8547a476a71,['c449647d067a7a0b947e13a9539d1249f28bca1e'],pengzhendong <275331498@qq.com>,1612099002,+0800,pengzhendong <275331498@qq.com>,1612099002,+0800,"[fix] fix apk crash bug
+"
+03184252882f1ad149e1be3400fc04ff9e5cf82b,be079f6da2bae56b1ffffe2ba39ce46090236f62,['f2fd905b9c6072e46ff5dd14e91919069eae74b5'],Mddct <Mddct@users.noreply.github.com>,1723519458,+0000,Mddct <Mddct@users.noreply.github.com>,1723519458,+0000,"Automated deployment: Tue Aug 13 03:24:18 UTC 2024 0dac0b55bf812e0e3e34289efa190334432b397c
+"
+033b3c295427cc0a7ef01f69eb41f39f32c481bb,f904329a4e90cf3b8422357a69303a4366dfc67a,['eee08bb18aacc09eae5aa6980f9950b5c6e16a2b'],Mddct <hamddct@gmail.com>,1711677058,+0800,Mddct <hamddct@gmail.com>,1711677058,+0800,"fix cv log
+"
+034462b6648874879c1c91812a5769c82c6842db,5a9d4979e991fe213df1ea788e35d93062fed731,['ae95b16f199ad7b1df138ad46cfc91b8527c727f'],zhyyao <zhyyao@npu-aslp.org>,1657978974,-0400,zhyyao <zhyyao@npu-aslp.org>,1657978974,-0400,"fix lint
+"
+034e4303a0a78b5b1f6400cf75dba8c9328649c7,b9e77b175b93264bffc0c6d3d2eaa3d7fab71ce4,"['4843d9e27fd60f1ca8bc6bcbf0c9b0c6f97a6247', '975c34bc41e47b130489c04542fdcaeb9afee6f1']",彭震东 <275331498@qq.com>,1617846980,+0800,GitHub <noreply@github.com>,1617846980,+0800,"Merge pull request #291 from mobvoi/binbin-symbol-table
+
+[runtime] use openfst symbol table"
+035469e7478cb1d8b77bbb774516624bfd5425d1,c800f5a64a92d2b2a4c63a44e3a838f86597981d,"['bdafc094e8c918ba21128c209ed905d9a68e5ab9', 'b8191cee9689c147b8611d79ef8309ee591e02bc']",Xingchen Song(宋星辰) <xingchensong1996@163.com>,1712510232,+0800,GitHub <noreply@github.com>,1712510232,+0800,Merge branch 'main' into LoRA_support
+035570de564ed609f3e6e07141b1faedfdb10cec,241fb977986d82d0f5926fa09c3d01efe7d7f3e7,"['c788f5339314bf737cf951cd15033dd35eb78f31', '21b2ec43dcd9cfa1be0c62c02ed5ef556ba5c92a']",jinsong <33392010+jinsongpan@users.noreply.github.com>,1619409553,+0800,GitHub <noreply@github.com>,1619409553,+0800,"Merge pull request #3 from mobvoi/main
+
+keep update with official"
+0355919c099d95a67f374e6fb8c2f824f353544b,297465902d888d5dd0775c23f2df0bdfca3ded65,['5a0afe155961a8ff3f9709281ad90ff077cd49cf'],Kuang Ru <rukuang10@gmail.com>,1637920785,+0800,GitHub <noreply@github.com>,1637920785,+0800,"[dataset] Support non-linguistic symbol in uio (#819)
+
+* Support non-linguistic symbol in uio
+
+* Compatible with the bpe tokenization
+
+1. Lint fix.
+
+* Regex splits the transcripts into non-lang syms and normal text
+
+* Remove unused imports
+
+* Non-lang syms now support {.*}, [.*] and  <.*> format"
+038cef703c0a92b440bc87a024954e3d31910959,07b09ceff764eb111f38a1f9400a48048b4c2dd4,['a8922c476ba0efbec324f8bd45672e343de7cbea'],xingchensong <xingchensong@users.noreply.github.com>,1701166937,+0000,xingchensong <xingchensong@users.noreply.github.com>,1701166937,+0000,"Automated deployment: Tue Nov 28 10:22:17 UTC 2023 373109c8d01af44ea5459b3f837c66078c4c7472
+"
+038f050a9f02f50131d368834a1c78a08050f6e3,5a2828f806012b65352b1945f4eab82d0b4e3a0f,['3715841ff3a8be2a5780ae01e843fe1a4970244f'],zhyyao <zhyyao@npu-aslp.org>,1657602899,-0400,zhyyao <zhyyao@npu-aslp.org>,1657602899,-0400,"fix lint
+"
+039f38d4ea3e4062316446e302352ede15f94a2e,994ee8bab971a1fe14d7fbe559e1cf5a6f5c0fb2,['9c65e93adc22a9acfcae3a70ade42095b1ef5d39'],Junyi Du <junyidu.cn@gmail.com>,1635404377,+0800,GitHub <noreply@github.com>,1635404377,+0800,"[examples] multi_cn format space and improvements (#735)
+
+* Formatting multi_cn's run.sh (4 spaces indent to 2 spaces)
+Adding option `has_tal`
+
+* Fix shard storing path
+More workers for training
+
+* formatting
+
+* fix bugs
+
+Co-authored-by: junyi <junyi.ducn@gmail.com>"
+03a527e4c58a6b44cf1370d85dbd0e879a9d6fba,6b827de4558c959350262cd141e785cd6eee7db4,['8ed430c812131e09df597fa55ce36efd5e9a3fd0'],Mddct <hamddct@gmail.com>,1738847102,+0800,Mddct <hamddct@gmail.com>,1738847102,+0800,"fix conflict
+"
+03b86355dd30f00c0e3832d0181d7960e1c6f76d,85f42b3317ef07d2ddb9ee7c6ac07cc8953f4a85,['a197ed4f98ea3faef2d1af7cab1e4a284a5e0544'],xingchensong <xingchensong1996@163.com>,1702391850,+0800,xingchensong <xingchensong1996@163.com>,1702391850,+0800,"[ci/cd] fix lint
+"
+03c1637abb40d65bc389da2643c2ee0960480bef,eb61bba227b9d801d43ae432e1c2d8941829e3eb,['f3a31735ac5cf4273f8133290846e913274b45c2'],yougenyuan <yougenyuan@tencent.com>,1634810557,+0800,yougenyuan <yougenyuan@tencent.com>,1634810557,+0800,"vkw test and eval
+"
+03efb98c0053adce52aa11be777ba531b68a265f,85ec3673caeb8ea784c29dba9459974cf19474c3,['741c9348d776c94486f3410dfa5680be82bb61c2'],wrz1999 <609519258@qq.com>,1651255191,+0800,wrz1999 <609519258@qq.com>,1651255191,+0800,"debug_19
+"
+04056c73eef09a4fa3589c4cf04b5e1608cd2cdc,0bdfa69fe006346e77d723ed3cd0697f1a8b1540,['76d39d793af65d33b2fd8a6c7b36a2e09677097e'],Daniel <znsoft@163.com>,1640991148,+0800,GitHub <noreply@github.com>,1640991148,+0800,Create readme.md
+041039eef51decca77320d5ee00ef0a6e09f2d2c,10e49cae08c338d84b0dde4e504cab025cb2cb3e,['c6391c0f9839d072645ede5628ff142323095216'],xingchensong <xingchensong1996@163.com>,1663551403,+0800,xingchensong <xingchensong1996@163.com>,1663551403,+0800,"feat(tools): Analyze dataset
+"
+041b0d7dfd28fec0bda64d172e63659e36fd0800,f695a831822788b9602ea80f0bbcd43bfea70f7e,"['c4f043f896b27ecc8f300d80c5d57b8342cd2865', '9468727d6cb4753adf56a1b9cfa45df24e4dccbd']",likai <lk9171@gmail.com>,1683179113,+0000,likai <lk9171@gmail.com>,1683179113,+0000,"Merge branch 'main' of https://github.com/kli017/wenet into main
+"
+041b60b88c1f4b82a49fcec5ecfd3bfd6badfa30,79a81e28f56cd35d098dceed18c20ca45f78a531,['32fcd086dd0a916bff6b1e8abe61e1cd661b99a8'],robin1001 <robin1001@users.noreply.github.com>,1624259024,+0000,robin1001 <robin1001@users.noreply.github.com>,1624259024,+0000,"Automated deployment: Mon Jun 21 07:03:44 UTC 2021 7f00996e018839f0e2bb8835ef2452896d74ef1e
+"
+041ccefb35119c01d826f77aec32812bed8b3316,afd3341930b71873b1905c5d95ad140c3489d50b,['038f050a9f02f50131d368834a1c78a08050f6e3'],zhyyao <zhyyao@npu-aslp.org>,1657603253,-0400,zhyyao <zhyyao@npu-aslp.org>,1657603253,-0400,"fix lint
+"
+04281238137dd42e5d3b85233e1ad240baf63b71,2417f6487ef43537a3841973873b3827b0e34874,['fde1b112ac08bace3a46b07efa0ffb99662dea65'],Binbin Zhang <811364747@qq.com>,1623993062,+0800,Binbin Zhang <811364747@qq.com>,1623993062,+0800,"refine it again
+"
+043ea1fa0b00dd8222b9101f32bc86980d405f53,fe8ee9a65721b8c976309857f37d76960e66094e,['4324b8fb69ac5a42ab2647e5fcad0b4ba4df5559'],robin1001 <robin1001@users.noreply.github.com>,1616136374,+0000,robin1001 <robin1001@users.noreply.github.com>,1616136374,+0000,"Automated deployment: Fri Mar 19 06:46:14 UTC 2021 cdb24b1fd6a6fbf79a142fec4939d7ef0fd62e34
+"
+0451440e337b9caf2cf34c0dff666027594bc287,91f43719584a2495425f5dfdd9c4dc18ae337818,['04e7f88209f6bcfcae39f01f4574a78f581010af'],Daniel <znsoft@163.com>,1640991298,+0800,GitHub <noreply@github.com>,1640991298,+0800,Update readme.md
+0454edd511fa910e121c388e45911fabf98e6c95,86e15019abe086e66f52eb49ae1cbaab7077f4b2,['1a3633a6d613bb4342f8b75982953c9b57e4765c'],Mddct <hamddct@gmail.com>,1708621586,+0800,Mddct <hamddct@gmail.com>,1708621586,+0800,"[wenet] fix decoder find unsed paramemters
+"
+0457e5354e13d7bda1400cd289d1e54a1bd839e9,0616a91c00affc36e491d9c1d034e3e7f62a54a6,['e657753d4d197dbf8481159e5870c6e4aae6a6ea'],廖子寒1 <liaozihan1@xdf.cn>,1684736099,+0800,廖子寒1 <liaozihan1@xdf.cn>,1684736099,+0800,"fix NST glitch
+"
+0459cdd6297b9aa5817e8aeddb9f3d4a0509603d,9fc15c44d59551cc87a9cf41dc449fc9d79e867d,['00b29f1fa8fe8ae2ad6156b90c1e0bfab85a9fc2'],jinsongpan <761086340@qq.com>,1638675785,+0800,jinsongpan <761086340@qq.com>,1638675785,+0800,"update index.rst
+"
+045f8fa79d2224649e53aa85e768b927e96e9597,a20609b390279a23fb4b0949cb160e8693a170d0,['0e13def697160cabaed5e2e631a181d27a4571d9'],Di Wu <1176705630@qq.com>,1611900018,+0800,GitHub <noreply@github.com>,1611900018,+0800,"[fix] fix s1 librispeech config bugs (#109)
+
+"
+046cca7e44896a107ee0b297d7ac8912780abefb,5ee209d5119c9b2181da33340731e25f3b3eaefc,['a4d7e3c8097fc31366773ed801999587faf5614d'],day9011 <329723954@qq.com>,1637755496,+0800,day9011 <329723954@qq.com>,1637755496,+0800,"add endpoint reset in runtime/core/bin/decoder_main.cc
+"
+0477c45d32c7a146e24384ead04f419f091594bd,1335032c52e29fecc3c1746d446eab3576ede318,['0142cf9db9276c9e606d3aa344bf7ece183873ce'],robin1001 <robin1001@users.noreply.github.com>,1679997278,+0000,robin1001 <robin1001@users.noreply.github.com>,1679997278,+0000,"Automated deployment: Tue Mar 28 09:54:38 UTC 2023 d677f278906950d7e8265b1a4de740874aae59da
+"
+04927dd0db4a7218f14f666c81e11c47c1850ffd,9ba059cbef7ab6382fe9bd7bc4b608bd74127628,['fa04bdd99d3fc487a536d5daef0e33cc6eb8a30e'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1664898699,+0800,GitHub <noreply@github.com>,1664898699,+0800,"fix(wenetspeech): Fix dir name (#1479)
+
+"
+0496b1d82e4475fcd8e4dd90c87a400eb411d8b3,415b42f1d45b1bc1c9f0ae2935656f97c3c4a85b,['1683016b02a4f48cfe101f57e0daf0913825e95f'],yuch <cy823236858@gmail.com>,1670234259,+0800,yuch <cy823236858@gmail.com>,1670234259,+0800,"add few lines in README
+"
+049dc908a5ee1616ceefec0f7fb1e65e87cbdc40,4d280d264df3eee1d16f81b1bdbb80855be355c4,['256a3ad31e02907c22f58fa300826ea2b22c1d47'],ZailiWang <zaili.wang@intel.com>,1702533320,+0800,ZailiWang <zaili.wang@intel.com>,1702533320,+0800,"update ITN dependency
+"
+04a044b30877c8b45f804750296316a5a1a6cf01,b0e3b1b6e304127382c04b903c46bb9067b470fb,['ca40c049a14291ea9e738bcaf4947daf32dfafd9'],yougenyuan <yougenyuan@tencent.com>,1634812827,+0800,yougenyuan <yougenyuan@tencent.com>,1634812827,+0800,"vkw finetune scripts
+"
+04a046badb984dbbf7d8b04a651f987bbec8b2ab,9c44e8b9ef6526edda9a49d16fb319fd247e6ea5,['db5dc6a81b7b98f78ec11374b634684ff732949a'],彭震东 <275331498@qq.com>,1651586136,+0800,GitHub <noreply@github.com>,1651586136,+0800,"[runtime] update CMakeLists.txt for win debug mode (#1080)
+
+"
+04a9287d089387fb1ea18e3ac82c19245c1bc21a,3a4679b7e31e228762b11055d602b869f507fda6,['bf5da64aba864e49b3f481365a46ae3358abc21d'],xingchensong <xingchensong@users.noreply.github.com>,1748766062,+0000,xingchensong <xingchensong@users.noreply.github.com>,1748766062,+0000,"Automated deployment: Sun Jun  1 08:21:02 UTC 2025 d215664580194a873b57f22840c58617b146838d
+"
+04acbfb324cbd52447b35db8bcec6970fb38f926,fde938d13bf7152e8f45991a9d589ca18eea2202,"['43d878b3d1d4fd4c80851ad6f74a9b6ae72f9395', 'f4847dcd5d6978a4ccdfeb0134d88d5f8501c791']",fclearner <614478391@qq.com>,1721546180,+0000,fclearner <614478391@qq.com>,1721546180,+0000,"Merge remote-tracking branch 'origin' into LoRA_fix_args
+"
+04bbc969855a3f35ff588931b1feba30c2ac6190,4698e0a0e918a83901e72ee36286e72116654440,['b37d05ee55556628be876c2380482748b5e78d0b'],Binbin Zhang <811364747@qq.com>,1610453399,+0000,Binbin Zhang <811364747@qq.com>,1610453399,+0000,"fix topo
+
+Change-Id: I2769d842b43837c6ee829761b318b12955ac7fb8
+"
+04bcdfcff041bc72c9500a84ce3ec62d200a15bd,f88a31dc9bd988f32f99f277293695849b788340,['6a38317381e98ce349df9312477c67e967fa39fb'],pengzhendong <275331498@qq.com>,1625553435,+0800,pengzhendong <275331498@qq.com>,1625553435,+0800,"[runtime] fix gflags namespace
+"
+04cfa452fa96cf110926399d0589e1785c3ba260,12945d770186f7b47ad553a926389363f574e8db,['b918242b9e8a764f692ed0dd5a6488c7e051b151'],Di Wu <1176705630@qq.com>,1630348803,+0800,Di Wu <1176705630@qq.com>,1630376676,+0800,"[tools] add char to syllable script
+"
+04d6fd6ae049274548261f8c539847f28592b0fa,906b1e46dbab26dc111c22042ecc3a384152d6e5,['66e9d440021d7b96143d09b772d8e46727b6cfd1'],robin1001 <robin1001@users.noreply.github.com>,1698383508,+0000,robin1001 <robin1001@users.noreply.github.com>,1698383508,+0000,"Automated deployment: Fri Oct 27 05:11:48 UTC 2023 6f16bc6fbe64231f830ebefa63a62a36c1ceaa50
+"
+04d7761f23375eae7c9c7f39af66fcf3daa742f0,7b1cb89a7f01b0a1c532ff12a6ad48eecf915d33,['75c822dbdb3cbbb09aaf1e501d5035281ccab8e8'],Binbin Zhang <binbzha@qq.com>,1704170148,+0800,GitHub <noreply@github.com>,1704170148,+0800,"[dataset] keep pcm for other task (#2268)
+
+"
+04e207ef03d79f5255d9151cbd6ba2811bc6061f,545b9387f639208b75ce2d99da72939ed205d518,['dbd3fcab557d44bf93a7f6a55290840715d2cbb9'],biofoolgreen <leebiofool@gmail.com>,1650590555,+0800,GitHub <noreply@github.com>,1650590555,+0800,"[wenet] Support WeNet to run on Graphcore IPU (#1049)
+
+* [IPU options] add ipu opptions related
+
+* [dataloader] add ipu dataloader
+
+* [network] rmake lable_smoothing_loss and add_sos_eos run on IPU
+
+* [pipeline] enable model running with pipeline
+
+* [hotfix] fix batch size for Dtaset,  drop accum_grad option
+
+* [optimizer] use poptorch optimizer
+
+* [scheduler] add device factor on scheduler for ipu device iteration
+
+* [scripting] walk around for torch.jit.script
+
+* [training] adapt training process for IPU
+
+* [network] enable model run on IPU, change eps for half precision
+
+* [install] use cpu version torchaudio
+
+* [hotfix] ix bug  in yaml, lbs loss, executor
+
+* [hotfix] fixbug in training process
+
+* [logging] add throughput calculation
+
+* [doc] add description for device_factor in lr scheduler
+
+* [ipu option] refactor ipu options
+
+* [hotfix] fix bug, add options for profiling
+
+* [doc] add ipu readme
+
+* [doc] drop unused
+
+* [doc] fix readme
+
+* [lint] fix lint
+
+* [lint] fix lint
+
+* [lint] fix lint
+
+* [hotfix] changes as the review comments
+
+* [lint] fix lint
+
+Co-authored-by: Tong Jinle <tongjinle123@live.com>
+Co-authored-by: tongjinle123 <lancertong@live.com>"
+04e7f88209f6bcfcae39f01f4574a78f581010af,0dfb5b1d70ab646c3a7d148d8c14d662e48af389,['04056c73eef09a4fa3589c4cf04b5e1608cd2cdc'],Daniel <znsoft@163.com>,1640991238,+0800,GitHub <noreply@github.com>,1640991238,+0800,Update readme.md
+04ea06d8f3aafe5dc2343176e7abe2058b8e5a93,fb90552f0b1a8de72b531a5571b65a22d693e31b,['1720389576ec5d5393289236240a956c1df4dfd9'],Mddct <hamddct@gmail.com>,1657274283,+0800,GitHub <noreply@github.com>,1657274283,+0800,add predictor type
+04ed4b40e026ca9e4919bb7b566ada8081b985b2,cecfa546cc8d97dd6fade6221a8493b063f8d604,['fe6cf0fd2d1dc60dddcecf1eb97d16118b964bbf'],xingchensong <xingchensong1996@163.com>,1704961426,+0800,xingchensong <xingchensong1996@163.com>,1704961426,+0800,"[examples] try to pass ut
+"
+04f749a80ad5eac355a8ed4d62459156dd2f9bd3,fffbbd5fb6729f4af01806d965b0d63a4ff4a4cf,['292cddb4dc599b35d1ff7874a923fd5c77556afd'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1705908093,+0800,GitHub <noreply@github.com>,1705908093,+0800,"[examples] update whisper results on aishell-1 (#2313)
+
+"
+050268a67d59acd6a5c82c5afa6562e3068e8cc5,db7acb97b402f0520e1b70f20c3ec39e7230b110,['ea1191b0abe004497862ee53abca5553b2d05a4a'],Jack Wu <leopardsaga@gmail.com>,1611643043,+0800,Jack Wu <leopardsaga@gmail.com>,1611643190,+0800,"Port Python 2 to 3 of compute-wer.py.
+"
+050f04172b7f3d9dae104ed871dd404b24ed15b6,712fd0e52bd8a8620e2d7ebdb9fb37f40a6e48f4,['04a046badb984dbbf7d8b04a651f987bbec8b2ab'],彭震东 <275331498@qq.com>,1651586212,+0800,GitHub <noreply@github.com>,1651586212,+0800,"[workflows] upload dll of api_main (#1081)
+
+"
+05256726f6bea110729d750bc4c45b8f7169496f,a25337ff559fe9f3a971e6f2fcf174183ccb4d2d,['0f467bd60218061787f743924c6acfb39d7cf076'],Binbin Zhang <binbzha@qq.com>,1651407077,+0800,Binbin Zhang <binbzha@qq.com>,1651407077,+0800,"enable publish to pypi
+"
+052d484c9ec4bd3c7e29f33cf847212109c22431,58ed420cac884843d560e52fe6e73084300228f1,['9b3c79c74a5b417902214c7aba3f12f1dcc24dfd'],Hongji Wang <jijijiang77@gmail.com>,1687338769,+0800,GitHub <noreply@github.com>,1687338769,+0800,"[runtime] support streaming ASR web demo (#1888)
+
+"
+0544b95648968ab369d5bea8c1a421fcaf49ebed,c6f30417c20210917792158936fc675dfbbfc2d1,['2bfc65cb88178bbd339d54aa3dc592213f89a907'],veelion <veelion@gmail.com>,1662012833,+0800,veelion <veelion@gmail.com>,1662012833,+0800,"remove lock if only one wav
+"
+054c14965657b2346558295aea8e3c7b6acc8e2f,844808649787a0dfa3c847a863f3b275d213b1ad,['5576e6f4bf7da28232a60167b74cd0217df320d8'],Mddct <hamddct@gmail.com>,1715137581,+0800,Mddct <hamddct@gmail.com>,1715137581,+0800,"[transformer] try to fix mga in onnxruntime
+"
+0558fbbafeefa6df2cd34c77155282a290f3c55a,bc396bd42e08ceafc1b3ecd27538eb54f9198cdc,['1f4a8b3b6337482013f564440e4bfe23ead64f40'],yygle <yygle@qq.com>,1663244675,+0800,yygle <yygle@qq.com>,1663244675,+0800,"fix formatting issues
+"
+05600d6a65e717e9752fb0f83706a21280d76609,5786b35d957bf8e7f0e0f3503e0dcdb8e28f3aff,['960728e07e06c8225c5c80c02554a405636dcfdb'],pengzhendong <275331498@qq.com>,1667185165,+0800,pengzhendong <275331498@qq.com>,1667185165,+0800,"[runtime] remove non-commercial info
+"
+0560f702ad63aafa742700fcb0dbf468541a5d3a,c97b58a7765b3b446dbdeff7e26a505d746ff657,['98eac6f1e988eb4868a0f63615ed42b145b3bb3f'],Dinghao Zhou <hamddct@gmail.com>,1723034202,+0800,GitHub <noreply@github.com>,1723034202,+0800,"[ssl] fix bestrq  l2norm (#2599)
+
+* [ssl] align the l2 norm
+
+* fix cv targets in dataset"
+0561406f2d891c8fe5cbd4c9b133802f526b3aea,c2270804ce8b60de69354cdcb1b6f01d329d2abd,['7b94b63847a2ce3f3a85f66f5eb75b6b2ea07af2'],xingchensong <xingchensong1996@163.com>,1701147658,+0800,xingchensong <xingchensong1996@163.com>,1701147658,+0800,"refactor(model): add utils/class_utils.py
+"
+05672992b30c15a47bb2171d64347bfd6ee3729d,98ad6c395af855a7890ce7113b6e3fb0077a3c25,['58c6ee46728f95893d93a37640b0555d98cc9c96'],Binbin Zhang <binbzha@qq.com>,1648622527,+0800,Binbin Zhang <binbzha@qq.com>,1648622527,+0800,"[runtime] fix bug when kEndpoint is triggerred at the last chunk
+"
+056cc766ba657e002c355edffeda08d52a46be03,6bcc089b99c575f18fd44b0664e7cde002feccf4,['222b3c2dfb106af93f681f4dce8102ed05e5e033'],robin1001 <robin1001@users.noreply.github.com>,1622538237,+0000,robin1001 <robin1001@users.noreply.github.com>,1622538237,+0000,"Automated deployment: Tue Jun  1 09:03:57 UTC 2021 a7604d38424e7d67aa27831f3d3cf7b042ddeb59
+"
+058cbfe94b217733c1c1c01006fa8ed3b5064e7b,716ad75b714e175bebd608243b9dee558bb09cd8,"['f85d5ef9b65ef274c2886b6b09f0b7586fbfa051', '3987af48c4d911e6354bcce12c241230969aa8ff']",Liuwei Wei <weiliuwei2013@sina.com>,1666148525,+0800,Liuwei Wei <weiliuwei2013@sina.com>,1666148525,+0800,"Merge branch 'ml_blockformer' of github.com:LeonWlw/wenet into ml_blockformer
+"
+059c6bf0a000c8ae610a6a0d955a7a164d65b940,25f72c6e7ab84236e5d15c6d0f758ebd2801c6e7,['e0e4171434c6c8c1de5842ba826887ecd16e5497'],pengzhendong <pengzhendong@users.noreply.github.com>,1635139338,+0000,pengzhendong <pengzhendong@users.noreply.github.com>,1635139338,+0000,"Automated deployment: Mon Oct 25 05:22:18 UTC 2021 5a3c6c984b04bdf82097d879edd61d595dee2bd9
+"
+059ce00e47c822010db074710df4aaac68bdd860,a395fae1076c1930dddfc3fce43dce105c25c8ab,['4d6d77e119a67fd7ba4a6dbd4e53a80cc8fb64d3'],Mddct <hamddct@gmail.com>,1618217748,+0800,Mddct <hamddct@gmail.com>,1618217748,+0800,"refine
+"
+059d38ca2baac9217a207b4e954ae3b08c1dddf0,8e1eef40466563badfe25ef69835fe6e9a2fbd54,['3db7af20d1d6c826756e6806b8b337fc5490563f'],pengzhendong <275331498@qq.com>,1629086268,+0800,pengzhendong <275331498@qq.com>,1629086268,+0800,"[docs] update model name
+"
+05a2579c2fad52633eb23f9a17bcced73c258528,0147b5761842136012d9607d7375e4c38a771f50,['33a55d528368f9f90ac1fe31dd2d1f1f368f7e54'],Mddct <hamddct@gmail.com>,1713526145,+0800,Mddct <hamddct@gmail.com>,1713526145,+0800,"unify chat pattern
+"
+05a28b242b978b7c7ede401995711988672ff5f7,9362fc06cd9560a7a7808e654cd1fbc52b7ef1f9,['fa583b603c1d32023467389b2055fece2e399e88'],Wenjing Xia <827146228@qq.com>,1615951538,+0000,Wenjing Xia <827146228@qq.com>,1615965024,+0000,"[doc] add aishell2 result
+"
+05a993fb0b8b1e18bcb8eda23a1771e7352c0d8b,1f2cb5f31b7187888f101bb74113c9bab995f33f,['3a0a53677952d34c3c8d6aaf12193c55e9f23217'],pengzhendong <275331498@qq.com>,1692536724,+0800,pengzhendong <275331498@qq.com>,1692536788,+0800,"[runtime] Support M1 Mac onnxruntime
+"
+05b141165f5f4e467cbbb2b85dc47eb5883c31ae,d5bcc52e291525c7ec13dd27f2ba5b3671aa3473,['d1399161e2f62def2a52bcbd6bc4541901930b3e'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1670226449,+0800,GitHub <noreply@github.com>,1670226449,+0800,"fix(bin): Disable spec_trim in cv (#1599)
+
+"
+05c76b062b7b8da4e9b277e4e171bbfd79e6fa64,3f472bd4e78090d650db4ca537015b689d8d4706,['393a666e1e7037cd8669354048525df4c6300214'],Binbin Zhang <binbzha@qq.com>,1676086380,+0800,GitHub <noreply@github.com>,1676086380,+0800,[doc] add runtime summary
+05ccbf369a88ae7163cff49848aea5fc38b873f5,7dce47223c3b81cfb1f462e4eb1bca5a038dd541,['d13de478b5a8556d5af82ab46bf4d18bc9fe074d'],Mddct <hamddct@gmail.com>,1710519667,+0800,Mddct <hamddct@gmail.com>,1710519758,+0800,"try to fix wenet.join fsdp
+"
+05cf4db49ac10b5b4c355bae0316ee1f3c43feca,2b721794a23001e0d927fac1fa19366fddc79cbd,['32f08b2e18e313c81d485f64678b22e0852618d0'],Binbin Zhang <binbzha@qq.com>,1692884717,+0800,Binbin Zhang <binbzha@qq.com>,1692884717,+0800,"[binding] add python binding command tool
+"
+05d8010f18e40a302aea3351e5585240d5280ef5,df00ef75a2cf7e4b0ed3fd53c081583c64a1f031,['494297b2801bd76f9dadfcb04964be29e8769e92'],bit-8 <771882370@qq.com>,1688373897,+0800,bit-8 <771882370@qq.com>,1688373897,+0800,"fix bug in cmvn.py when load kaldi cmvn file
+"
+05d8045476cac9074487609c0f20c6545386fdf4,458bbd25d7d878953cba7aa64dcae8ff01cc1cf6,['ff54afeb10564edc9a50e81208d8df44a893bf74'],xingchensong <xingchensong@users.noreply.github.com>,1710908868,+0000,xingchensong <xingchensong@users.noreply.github.com>,1710908868,+0000,"Automated deployment: Wed Mar 20 04:27:48 UTC 2024 11eb863a4d3ec9995d5dcf33af4c01196d904c9d
+"
+05e03657849931e30ac58a869a2625141d92becb,cc6dc7e4c6e9f41ef470ae5d9778458e945fbb34,['02d4c9c90ec1cad67cb72f985c0ba00c6c0972e9'],zx1116 <2015301500028@whu.edu.cn>,1658303544,+0800,GitHub <noreply@github.com>,1658303544,+0800,Update papers.md
+05e7086de00af94451626484e211b7c0065a1289,5f151dfbe92c282f33c2ed2b2b7420ce20a30901,['545771dcda6a9c50fb75d59f0154ee36144cf592'],pengzhendong <275331498@qq.com>,1630395028,+0800,pengzhendong <275331498@qq.com>,1630395028,+0800,"[runtime] update CMakeLists.txt of kaldi
+"
+05eb1134c38d3d4e3d7ca336918c610b52babd66,342ed506fdeb59b181cd3facf5a7be7405b39113,['e21042b5e8de8d6a4773d4cf4010471c992d00c5'],Binbin Zhang <811364747@qq.com>,1626835907,+0800,GitHub <noreply@github.com>,1626835907,+0800,"[runtime] remove const and reference in LogAdd function (#522)
+
+Change-Id: Idcbaca4ce1d3be542187f18f77d7bcdfb18f1db5"
+060176e85cf162655953c6d9718af2b09210e043,8568c2dd89911ea6a6b913fa28dba3ceaeec6927,['36d934e651c78a758c6f5d1c9c3a4d1e3a841b24'],Di Wu <1176705630@qq.com>,1627386284,+0800,Di Wu <1176705630@qq.com>,1627386284,+0800,"[tools] large scale dataset support
+"
+0605329a1160d0c9bbb5881ad0899fddba6178f4,67a0c7c878f831178a0487ebd2753b8aefb764e2,['1ca8bfef12e4454deb353f3c62f57f0a467f12e3'],pengzhendong <275331498@qq.com>,1612105442,+0800,pengzhendong <275331498@qq.com>,1612105442,+0800,"[fix] fix description of argparse
+"
+0625895a4919cb006160048b721265e6d23f88ef,7a75c8997489e4f96a9da72ad45396ce99f858e7,['82c34c4b0ef8fe0abb1a4f73957a389fde89a46d'],Mddct <hamddct@gmail.com>,1738917447,+0800,Mddct <hamddct@gmail.com>,1738917447,+0800,"precision match!
+"
+0625c2a6da5cd70eba5dbfdeecf92e09e2ac30e8,fbd5d129e1d218e69bfd00d8f22ea531219072a9,['b7231d3974909c2f453622c8958a1e173686d36f'],zhyyao <zhyyao@npu-aslp.org>,1657600913,-0400,zhyyao <zhyyao@npu-aslp.org>,1657600913,-0400,"fix lint
+"
+063287b0a9ddab65067f8231c1d33e9177e4199f,8fda257d50e0da805937194ecb8e1472ad3502e7,['36d934e651c78a758c6f5d1c9c3a4d1e3a841b24'],fanlu <fanlu7311@163.com>,1627380234,+0800,GitHub <noreply@github.com>,1627380234,+0800,"Update compute_cmvn_stats.py
+
+fix sox_io_backend.load param offset to frame_offset @whiteshirt0429"
+06340a6ee2ff8e94f8a5e795b08308fe0c0849d1,bf0fdb94d60fe3480af8a9c376ab0ba34d141c5f,['04e207ef03d79f5255d9151cbd6ba2811bc6061f'],Jinle Tong <lancertong@live.com>,1650767187,+0800,GitHub <noreply@github.com>,1650767187,+0800,"Graphcore support ipu (#1050)
+
+* [IPU options] add ipu opptions related
+
+* [dataloader] add ipu dataloader
+
+* [network] rmake lable_smoothing_loss and add_sos_eos run on IPU
+
+* [pipeline] enable model running with pipeline
+
+* [hotfix] fix batch size for Dtaset,  drop accum_grad option
+
+* [optimizer] use poptorch optimizer
+
+* [scheduler] add device factor on scheduler for ipu device iteration
+
+* [scripting] walk around for torch.jit.script
+
+* [training] adapt training process for IPU
+
+* [network] enable model run on IPU, change eps for half precision
+
+* [install] use cpu version torchaudio
+
+* [hotfix] ix bug  in yaml, lbs loss, executor
+
+* [hotfix] fixbug in training process
+
+* [logging] add throughput calculation
+
+* [doc] add description for device_factor in lr scheduler
+
+* [ipu option] refactor ipu options
+
+* [hotfix] fix bug, add options for profiling
+
+* [doc] add ipu readme
+
+* [doc] drop unused
+
+* [doc] fix readme
+
+* [lint] fix lint
+
+* [lint] fix lint
+
+* [lint] fix lint
+
+* [hotfix] changes as the review comments
+
+* [lint] fix lint
+
+* [hotfix] fix bug in train.py
+
+Co-authored-by: Tong Jinle <tongjinle123@live.com>"
+063c62f0ca4bca37692f34efc7d2d909cea5a26c,7ae9541e31af8934b70f5cc74a3f468fe0f23424,['da1205a4b2396a13fc200a19262b21a73715d5ba'],whiteshirt0429 <whiteshirt0429@users.noreply.github.com>,1619667600,+0000,whiteshirt0429 <whiteshirt0429@users.noreply.github.com>,1619667600,+0000,"Automated deployment: Thu Apr 29 03:40:00 UTC 2021 410bcdded560d073883afc51fc4eb22caedf1dba
+"
+063d79b894cc5f282d796d4782a6850c6c343e25,1a090a6f569d32712ac95ef8591a3caf1abf78b5,"['f54d0ef14901037ad39790bca2df668c1c4d7ab0', '46f4bbe0b75002faea0fd003cd689bc3d09cf237']",彭震东 <275331498@qq.com>,1625043088,+0800,GitHub <noreply@github.com>,1625043088,+0800,"Merge pull request #484 from double22a/patch-1
+
+Update README.md"
+064429414ae09ed700243771681961b78481f434,a7ad8cf5d9eb0ab378ad93b72258c781ab6187b1,['c2a832a66e8171ba374c417910f18d870c5c4709'],Mddct <hamddct@gmail.com>,1711097398,+0800,Mddct <hamddct@gmail.com>,1711097398,+0800,"all wenet xxxformer works (-paraformer -transducer)
+"
+064a388fc338ea863239efa84e1a79f284465863,ac5f29c7057065bdb3bcfb4ea9d1bf276fb32b1f,['1bd6942537dc8e6432a67ccbed5706989696f0cc'],slyned <slyned@nvidia.com>,1632646298,+0800,slyned <slyned@nvidia.com>,1632646298,+0800,"add ref for vocab & fix python script style
+
+Signed-off-by: slyned <slyned@nvidia.com>
+"
+06574048f9a03b4fb037231522b68a393cbd944a,b7ba35070933286af3dcd36b1d08e9497c1491ee,['d196c25dbe7e9a911938d661a507000e2c596642'],Nickolay V. Shmyrev <nshmyrev@gmail.com>,1661308085,+0300,GitHub <noreply@github.com>,1661308085,+0800,"Delete file before update of symlink (#1399)
+
+"
+06628b4f12b298ce7784705cdbb1b041b3b602f7,ceb694b3e5b21e73cafaf8b6522b70ce832acc3a,['bb755664091598482f2aaa1090402bb8f60719f0'],pengzhendong <275331498@qq.com>,1662191964,+0800,pengzhendong <275331498@qq.com>,1662191964,+0800,"[android] fix symlinks
+"
+066943ef6be0ec88963583c78e312022664e0b6f,163ad7c3e943e8ad0c79b055e3895e78e966640f,['f896997cbd6be2f8e4d33cd139b7f307d10f548f'],robin1001 <robin1001@users.noreply.github.com>,1697452745,+0000,robin1001 <robin1001@users.noreply.github.com>,1697452745,+0000,"Automated deployment: Mon Oct 16 10:39:05 UTC 2023 d99295b753f7333a70c3648ab99731ba562c404d
+"
+067284d18370270b91c038c32da3df2f3c1aba7a,7b50f5ef3dfde3e6c6c2010864b794b102be4467,['ad5b3b6674a00fff55757a7282754101a59d1310'],Mddct <hamddct@gmail.com>,1707211753,+0800,Mddct <hamddct@gmail.com>,1707213270,+0800,"[ssl/w2vbert] support w2vbert fbank
+"
+0678b5b6d6cde99a1381356577e38338c6455d13,cba9373d64515230e18dfd4366f09c66894c7b8d,"['c6cf94b679f8f41171232fae089cf0faa14201ea', '87886a897ec6c7da0fee38cf8ba266a52c76dc65']",Jinle Tong <lancertong@live.com>,1650978568,+0800,GitHub <noreply@github.com>,1650978568,+0800,"Merge branch 'wenet-e2e:main' into main
+"
+06864ac4b7b0fd05f346baa619730440ffb58247,6b4e19daff2a9d8e87ea31d890a838f26c6fa882,['b115913c5fcc1681aa86b05011783e0f6d1906d1'],kobenaxie <572745565@qq.com>,1707038034,+0800,GitHub <noreply@github.com>,1707038034,+0800,Minor fix decode_wav
+06875e4b3cb5c5bf823a69d0c2d1bcb73553d48b,531f2132737bc823334f36ea4f8255aac1bf4af9,"['f9fb24aa4ab589f7a50f89c912c2b7d9b8ff199c', 'a2c0fec01e8a760b976d93d41633fe95f6557fc7']",Charlie_Tang <405691733@qq.com>,1634024922,+0800,GitHub <noreply@github.com>,1634024922,+0800,Merge branch 'main' into hydra_recog
+068ddef3296f8ae6e95b89cbe5f8d983e3a82fa0,2a14ed7fb24b104bac3cc8809065b8e0e1d6c7eb,['454fd4b2b3c0520c66a167b25428fea6a1414d53'],Binbin Zhang <binbzha@qq.com>,1661908766,+0800,GitHub <noreply@github.com>,1661908766,+0800,"[runtime/web] add runtime web demo based on gradio (#1416)
+
+"
+068e4a77657e2a0d8f05b54e208ac605a3c27025,52d48fd4b14c905981133bb62ca634dbad474bbd,['a0fb17137aed606eaacb89b54a7aa9f99494e007'],veelion <veelion@gmail.com>,1667465555,+0800,veelion <veelion@gmail.com>,1667465555,+0800,"fix batch_size
+"
+06af1090fa364ff8d17c3c009d272ddf18c5b5ad,508ba05985ef64bc16691b5b2a05c11aba1e54fc,['113e18455eb73b830ba9333cb25c578466917add'],Binbin Zhang <811364747@qq.com>,1610678724,+0800,GitHub <noreply@github.com>,1610678724,+0800,"refine training parameter, change layernorm to batchnorm in conformer (#59)
+
+Change-Id: Ic6a9821c2c41a20e96585b3561c23a48cffe1a53"
+06d3dea9faaad83b167e4de5e2fbea250d746b70,a461c9594705f09f11d26e27fda0d5098b150e74,"['de7872b061ec369ba385bd9f7c14ca49116ff1d7', '30f6b2b0c5ed3fa89bae6d80f630bbd4ca6192ba']",Jean Du <37294470+duj12@users.noreply.github.com>,1694856158,+0800,GitHub <noreply@github.com>,1694856158,+0800,"Merge pull request #1 from duj12/itn-wetext-sub
+
+use wetext subproject."
+06e3427d26540ff91674f23180708c6234b1c581,51550074008c04b830bd144b1497d7d33e3543a5,['ec2958a650b9ca1656c1ac887c58791aadd49917'],xingchensong <xingchensong1996@163.com>,1710943546,+0800,xingchensong <xingchensong1996@163.com>,1710943546,+0800,"[runtime] linux CXX11_ABI gpu
+"
+06e58a6ba4207e231fd64df729df992f2436749a,a4ec01752d18ec7348ce6a5fcc521bd795d69a56,['a31a7d16108ac07b8231f1f55c30a29258ceaf86'],yuch <cy823236858@gmail.com>,1670779384,+0800,yuch <cy823236858@gmail.com>,1670779384,+0800,"add config
+"
+06e8157b36cd958d8833c0cc189431c76f6352bf,084c9ee8d0cfad944e9a059f3edb106bcc4cbc6b,['f0599d6bd89cb777ce770904f4c3ec1203dbc69c'],robin1001 <robin1001@users.noreply.github.com>,1657419169,+0000,robin1001 <robin1001@users.noreply.github.com>,1657419169,+0000,"Automated deployment: Sun Jul 10 02:12:49 UTC 2022 eeb64ee47c6efa73608a78014bbdf1cc9fb591b0
+"
+06ee7bad40483840da73abfbb5664466eed57376,3d63dfb99eed9574a647d8665d01a141075d3ddd,['d07c8c4654bb33ab3cae3717514c4a826ce57252'],xingchensong <xingchensong1996@163.com>,1683771701,+0800,xingchensong <xingchensong1996@163.com>,1683771701,+0800,"feat(train): make save_states configurable
+"
+06f4e2b64d32a9b25a3da8a7ec316344fc783e78,9c8ef24f462a6fa466cbf197a3046f9b124b9fa6,['9e599b6561622f8ed0f90a4a9b96cd39188e451c'],chwma0 <75061355+chwma0@users.noreply.github.com>,1617349354,+0800,GitHub <noreply@github.com>,1617349354,+0800,"[fix] modify version condition of torchaudio (#274)
+
+"
+06f74d1ec4257ed73b0109b0e0e8d3c50577a3d5,63b8bb4cee64f569d3929da16215e6958ef987d9,"['25b098218c4f0decc1120f0669b42de906219e49', '8f4c3844e28ec23b66e014298a60ff8182f9833a']",Honei <915574300@qq.com>,1670740276,+0800,GitHub <noreply@github.com>,1670740276,+0800,"Merge branch 'wenet-e2e:main' into main
+"
+07176dbf8277fe1f45fb8cc7e506399bc73c7aa5,8eef96d941210aed54a0f1841ff4c391c5f81a25,['9fa8342ef63554d6270fe7bc4dbfc8f100ec0789'],pengzhendong <275331498@qq.com>,1649760604,+0800,pengzhendong <275331498@qq.com>,1649760604,+0800,"[workflows] updata doc.yml
+"
+071dc9f5443d07e7b0bff0762b94e21965cd745e,f92c23092995ff52935316634850582ac667e16a,['a5d61b6c8ddc45eb5ee5c01d5b2afca07997c80d'],kli017 <lk9171@gmail.com>,1688958577,+0800,kli017 <lk9171@gmail.com>,1688958577,+0800,"updata branchformer config
+"
+071fc5359b4b3de40eb8960d0663767f6895ef20,80f4eddce843417c1dd0d7dea6b51a7848420122,['003277de21ab47572e15e7d42d20ac8255e78fcc'],Binbin Zhang <binbzha@qq.com>,1651395588,+0800,Binbin Zhang <binbzha@qq.com>,1651395588,+0800,"fix syntax error
+"
+0723b57bebd3427fcea7ebf1754a460a8a117d22,21e99397efee79846b1af73dbd09a0f05345ccc1,['d677f278906950d7e8265b1a4de740874aae59da'],Binbin Zhang <binbzha@qq.com>,1680093699,+0800,Binbin Zhang <binbzha@qq.com>,1680093699,+0800,"[fix] fix lfmmi dir
+"
+0735ebe9f98d32de955ab066b379988c2bc7d336,ba0654d6269b7802f32fa42e6931f599ccfc413d,['b50bd5bfc583ae63bd0035a397ee3106e60e5c3e'],Kürşat Aktaş <kursat.ce@gmail.com>,1729511669,+0300,GitHub <noreply@github.com>,1729511669,+0300,Introducing WeNet Guru on Gurubase.io
+07448b9ddec60637f1a35c5bf59fa28aff4a7977,1f61661985aa6edab74710a54521f3cf53d5d72d,['05256726f6bea110729d750bc4c45b8f7169496f'],Binbin Zhang <binbzha@qq.com>,1651420236,+0800,Binbin Zhang <binbzha@qq.com>,1651420236,+0800,"do not copy so
+"
+0759df0f0ece802c377903c74b7bd3c4d3504722,d0f70a29cd29f2c706f1a898fd780b6cad467210,['532cffa640aa79b6334c5f8d3b7c028a28cb3b22'],yougenyuan <yougenyuan@tencent.com>,1634715392,+0800,yougenyuan <yougenyuan@tencent.com>,1634715392,+0800,"format recipes
+"
+0768fb111bd16b68399d0102798ae0eecb835874,95597c650835b110e8f0d3a56d7b8a7574a484f9,['3eb9a8579d65a32b606aa04c89bdfcaca10d220b'],Mddct <hamddct@gmail.com>,1681895390,+0800,Mddct <hamddct@gmail.com>,1681896984,+0800,"[bestrq] stable training
+"
+0782400890d1c72b81dd166e41363ad0ccc61cd5,33c6b28c27097003ed818d35afa440979e4c8d9e,['0045ecc97b48c89ea6a61ea8880cc39b98acc071'],Binbin Zhang <811364747@qq.com>,1616931222,+0800,Binbin Zhang <811364747@qq.com>,1616931222,+0800,"[doc] specify torchaudio version
+
+Change-Id: I4d12186e7a9f7b31294be09bae7fafadd8bda1c3
+"
+0789964bae8f759ce0bdebe0a9e9009b7149db63,95a54d33f3a49feefd1a0554217bab80aa3c5a4f,['3680702a843aed374e1ad6c095e1d0a4fae30f72'],Binbin Zhang <binbzha@qq.com>,1665282446,+0800,GitHub <noreply@github.com>,1665282446,+0800,"[doc] refine pretrained models (#1483)
+
+"
+0794ad434bd0129b97dd3258990335dcf1c33675,7bfce4434dc430c4ab3834427bf9f9bbc5e2d775,['96a8d5126a4afe0076d89de835cc4f6a6c5cd45c'],Binbin Zhang <binbzha@qq.com>,1655994990,+0800,Binbin Zhang <binbzha@qq.com>,1655994990,+0800,"add python binding
+"
+07968fe8e7ccb522fdd1574ead2b810b8638734b,12a46f65cb2acaaed7b7791ebd3b363cc7208c4f,['931c973b8de394fa1158b625c9a5e190e5dfe8bc'],Binbin Zhang <811364747@qq.com>,1631844472,+0000,Binbin Zhang <811364747@qq.com>,1631844472,+0000,"add exception handling
+
+Change-Id: Id86148054ddcc94046945fd398f8442ff5f50769
+"
+079cf277e43d97447e00c2b6d1a89e890b3398b1,458bbd25d7d878953cba7aa64dcae8ff01cc1cf6,['eb59c771dc0686bc5f53c4562315817de73e40db'],xingchensong <xingchensong@users.noreply.github.com>,1712050173,+0000,xingchensong <xingchensong@users.noreply.github.com>,1712050173,+0000,"Automated deployment: Tue Apr  2 09:29:33 UTC 2024 1feea35a91ec61ef826cf0ac18ce3013b0dcc321
+"
+07ad8ecc23ce876b83c3debcb27ffe172adbfc56,7ae9541e31af8934b70f5cc74a3f468fe0f23424,['f291744b9a58f2004beb5d57925f88079efa501b'],robin1001 <robin1001@users.noreply.github.com>,1618306107,+0000,robin1001 <robin1001@users.noreply.github.com>,1618306107,+0000,"Automated deployment: Tue Apr 13 09:28:27 UTC 2021 b5c7f86bbe8346530b2202c071c74fa2813dbc54
+"
+07b065180ad2c3660946de31b7f52764c65289fa,a2ac2616f43d054648feb510b1ded827e250b793,['1975ea9e8bd8fe64a40ed87cabf84fd52e25074b'],彭震东 <275331498@qq.com>,1672708903,+0800,GitHub <noreply@github.com>,1672708903,+0800,"[runtime] save wav in binary mode (#1641)
+
+"
+07bbc9f033598a22cc665e99d2e25432896a72db,f1c20134736f55b646a317007df12d2a2777df79,['84fc5268c11a39edb9be42bb158f44b293caf7f8'],Mddct <hamddct@gmail.com>,1654921608,+0800,Mddct <hamddct@gmail.com>,1654921608,+0800,"fix pointer style
+"
+07c2afaeea66ed6cfda04b625e38afe78cfab42b,63a925adc716431a8e05acc0b8f975c9ded2a8b3,['3a4c77e7243c9b99dce57fc9a8406f17271c4379'],Wenjing Xia <827146228@qq.com>,1616806792,+0000,Wenjing Xia <827146228@qq.com>,1616806792,+0000,"[doc] add aishell2 model link
+"
+07e18b8058de2a8135afbe32015abf9a7533a65b,e1eabb57aaed386b83a643f856a573c327266b3a,['6c16901e2b2fb04856e667854d62ca82871374aa'],Mike Lei <mikelei@mobvoi.com>,1611298383,+0800,GitHub <noreply@github.com>,1611298383,+0800,"[doc] Update server ASR demo readme. (#84)
+
+"
+07e64c8dc4dee49f9e9dcb69ea945d333e1e9763,b8d69f26d824710f081bf3f4ebeab87738a1ac44,['10dc9f2fe48c68b489b8633e31f5021419a6a53d'],Mashiro <41965153+Mashiro009@users.noreply.github.com>,1650874923,+0800,GitHub <noreply@github.com>,1650874923,+0800,"[tools] normalize the audio before resample (#1056)
+
+Co-authored-by: mashiro <mashirorin@qq.com>"
+07e75516a3d2884fdce7614ac458160948df0ad6,58f542c5d0d661a6fd7b15e2cf58d537e7359601,['f28cf1e7a93be5775b35a1ee0bc8383c6d0c6959'],Mddct <hamddct@gmail.com>,1656845573,+0800,GitHub <noreply@github.com>,1656845573,+0800,Update transducer.py
+07eaf7246bcfb4f180eaa61aa13160993a61981d,5d795dbe78f4b9e8b62eddf060b6fc3add2d1ab6,['35aaf0c616dc0bc8d5929b0bb65c03d506881b89'],zelda3721 <zelda3721@yahoo.co.jp>,1640238279,+0800,zelda3721 <zelda3721@yahoo.co.jp>,1640238279,+0800,"try to solve the programm stuck, when train and cv both are dynamic batch size.
+"
+07f0a75e96965fedeec5ca576271b80702282a66,82ea30b9469e3a8fbe9cee2de43cd514c3bcae6c,['885e7d714ab81e102836aef2195bcd5477323ef3'],Binbin Zhang <811364747@qq.com>,1620442722,+0800,Binbin Zhang <811364747@qq.com>,1620442722,+0800,"change openfst install dir
+
+Change-Id: I304965fccf37794ca2db0d886e0d9d9032b0c60c
+"
+08018e05184c5874427b520fd3f3186dcb824337,79a81e28f56cd35d098dceed18c20ca45f78a531,['e366ea1c28e264925a18d11f28f5f1ee394bed89'],robin1001 <robin1001@users.noreply.github.com>,1627455676,+0000,robin1001 <robin1001@users.noreply.github.com>,1627455676,+0000,"Automated deployment: Wed Jul 28 07:01:16 UTC 2021 a16bbd72dd2666aad36b9bc0d55a5bb22feaf494
+"
+0805c99cac7d473bfd06990c8630a43bcc7393e2,1c9fee33bae78241c594fff9bdddad9d838427f5,['6ae26880fca62286e28d6a0f485977745363ff45'],day9011 <329723954@qq.com>,1621595474,+0800,day9011 <329723954@qq.com>,1621595474,+0800,"fix flake8 error
+"
+080e0b2b1e19a42777248d6a33a1d8ab1c33f22d,8b50aaee2a55e54fb5c92ecf1158eea994da6c8f,['4a4fc1673cca10125fc522c6d4875369f681b90d'],Yuekai Zhang <zhangyuekai@foxmail.com>,1665556194,+0800,Yuekai Zhang <zhangyuekai@foxmail.com>,1665556194,+0800,"add rnn-t latency metrics code
+"
+081b903502d240a60b5514822288fae5f75d82dd,f84ac60844afa197d397552c63662e3bc604707b,['38147bab10118afc376099766974bc0e377aa4ec'],xingchensong <xingchensong1996@163.com>,1705293560,+0800,xingchensong <xingchensong1996@163.com>,1705293560,+0800,"[loss] set zero_infinity=True to ignore NaN or inf ctc_loss
+"
+082167c588878404f5e47902c02350a31d166a23,43abe09fe5539d2677387de1edf2c7ddc3859cbb,['a331fd4c1a61ff580460e0cf73cb5b89666fc41b'],Mddct <hamddct@gmail.com>,1698759731,+0800,Mddct <hamddct@gmail.com>,1698759870,+0800,"fix lint
+"
+0824e56177fc70e83b50b415a2a924b3aeba5b6d,b2a8cd4e65262bf84762e9e39492ab1c293a2bb2,['3c55dde0d7fa8024c79a90c66120a2a118fded88'],yygle <yygle@qq.com>,1665718623,+0800,yygle <yygle@qq.com>,1665718623,+0800,"fix format issues
+"
+0829f067b65665fb499db46a5c7ce84d336bf25a,51c08ce1a9e2cc77a2788a914b77a7d63c1aac81,['a778f743eb24adb474805666e01becb3bda487ba'],彭震东 <275331498@qq.com>,1635338077,+0800,GitHub <noreply@github.com>,1635338077,+0800,"[docs] use uio in librispeech tutorial (#738)
+
+* [docs] use uio in librispeech tutorial
+
+* [docs] replace 4 spaces with 2 spaces"
+082b78fe7e617ac1038904575b3d8150a43acade,e469791f1fc798a2af3ba6e978e13fbedee421be,['e5cdd7514002b3c92bc46ffe9d0525711b18a89e'],robin1001 <robin1001@users.noreply.github.com>,1659842579,+0000,robin1001 <robin1001@users.noreply.github.com>,1659842579,+0000,"Automated deployment: Sun Aug  7 03:22:59 UTC 2022 fca1d764492f8fe5bb4a1df55cd4c133ad804552
+"
+082c19e123088f9f8034e69c4e0e317dfa8a642b,95cacccdc9870871c771fb2b04689cdbc9ca9b2e,['7bff527b1d350b2a5b73d4ef3ce791a29c4364c2'],马丹 <dan@madandeMacBook-Air.local>,1668093505,+0800,马丹 <dan@madandeMacBook-Air.local>,1668093505,+0800,"Fix lint tab check
+"
+082cf5e3bb7343c3c16d1055ee6ac7ff58c9cbd8,d3a4aff12f224bf96fda763eaf0142c730725ff7,['fccd483fa49d95ad4a3005caa60d747f87e9908d'],Binbin Zhang <binbzha@qq.com>,1654178517,+0800,GitHub <noreply@github.com>,1654178517,+0800,"[doc] add roadmap (#1189)
+
+* [doc] add roadmap
+
+* add date
+
+* add av asr
+
+* add roadmap in readme"
+082d5ec41a10baed010543b5ad6abe1d8416e12e,aaa4b6921b00d581f5a700e586be1000e27ea179,['29ee2431132fc962acd36d13cd4a014da601513a'],zhyyao <zhyyao@npu-aslp.org>,1657609759,-0400,zhyyao <zhyyao@npu-aslp.org>,1657609759,-0400,"run.sh fixed
+"
+082ff21deaabe36714c6e81cfeab382775b760ad,3838764db247eed05e5d6ad1fb1b99ab116e0cc5,['2df54a68b5f4a884ad7fdac6e6ad93432f54afd0'],Binbin Zhang <binbzha@qq.com>,1652106683,+0800,GitHub <noreply@github.com>,1652106683,+0800,"[doc] add contributor of pretrained models (#1096)
+
+"
+08322705b9377835fc4d199d06b5e28fb6ea6a01,5cc770aac59a4d4502b8db6e50daf68f6fda0b48,['3c3803629aa55dd3ad7db34768492c55201a93ba'],robin1001 <robin1001@users.noreply.github.com>,1635038802,+0000,robin1001 <robin1001@users.noreply.github.com>,1635038802,+0000,"Automated deployment: Sun Oct 24 01:26:42 UTC 2021 a609c7d22a2849ba7788c697d0f4081d3634478c
+"
+0833e36873b0b981d4aad2d556a85ff6ab9681b8,67ccfdb7ade73ae61baa4f01fd8a7f9ecc16b60a,['7553a2da38881314923f3165e6ce1a1e247120ff'],xingchensong <xingchensong@users.noreply.github.com>,1704170255,+0000,xingchensong <xingchensong@users.noreply.github.com>,1704170255,+0000,"Automated deployment: Tue Jan  2 04:37:35 UTC 2024 04d7761f23375eae7c9c7f39af66fcf3daa742f0
+"
+0836638eee9c5d00c76a8aa34e046a64bc14ac89,e0a1d77097f12fe8209fa004c502446fe084abf6,['c04464d331495a7ce998213727bc536505d6b42f'],slyned <slyned@nvidia.com>,1637050080,+0800,slyned <slyned@nvidia.com>,1637050080,+0800,"add perf
+
+Signed-off-by: slyned <slyned@nvidia.com>
+"
+0847db38783e3dcb0b064c90778e0d1bd7e7772c,7ae9541e31af8934b70f5cc74a3f468fe0f23424,['0866b12c6fcc17cb3d0405ad43b5334209f3c62c'],robin1001 <robin1001@users.noreply.github.com>,1619409317,+0000,robin1001 <robin1001@users.noreply.github.com>,1619409317,+0000,"Automated deployment: Mon Apr 26 03:55:17 UTC 2021 21b2ec43dcd9cfa1be0c62c02ed5ef556ba5c92a
+"
+084c8436a181831ca8a0ce09dffe0837f0cf2331,2552a879a249dcb7bc2636cf6dd44ee45e19b53b,['139fc368b68e07a08526f8f749cd148f0a4d282e'],yygle <yygle@qq.com>,1663234527,+0800,yygle <yygle@qq.com>,1663234527,+0800,"fix formatting issues
+"
+085063c6ee91cfd12f822b80935eb4469b0495b5,81c8a4f486c9b3b41703521da2b476fe07980bb7,['bd32ec5eec9006c4a9fe92ca4ddc05f5da754e13'],robin1001 <robin1001@users.noreply.github.com>,1612107329,+0000,robin1001 <robin1001@users.noreply.github.com>,1612107329,+0000,"Automated deployment: Sun Jan 31 15:35:29 UTC 2021 a0557bf1594e3c969bd306a372a5e1b892008e1f
+"
+0859e106575cc52ab675e407467e5e0661e9c331,e69fed13f15c6275013058b6a839d5126287cc58,['235b07a95bceea37807524ebd9ec0a8c5cdf05da'],robin1001 <robin1001@users.noreply.github.com>,1664115852,+0000,robin1001 <robin1001@users.noreply.github.com>,1664115852,+0000,"Automated deployment: Sun Sep 25 14:24:12 UTC 2022 b1baf630afa49ac728123815740ae1064ba9ec42
+"
+085e6e6e148b5ae6a61ff9d82fc91f3b48b71a6e,55622228472730a51556aa0960b2837615e044c5,['ac417750a522f58428958706abe8a3d9809c5ec7'],zhaomingwork <61895407+zhaomingwork@users.noreply.github.com>,1678670659,+0800,GitHub <noreply@github.com>,1678670659,+0800,"[fix] fix bug transducer init has no lfmmi dir (#1739)
+
+Signed-off-by: zhaomingwork <zhaomingwork@qq.com>"
+086335b7732d5a7404dacdd5e0ce4f0fcdad236d,a3839acf8e1ad05e3040ad9dc8b14ad9d26e387c,['0eca1d0daa0198c438e52c2bdf5dc1d8ca7a4861'],Binbin Zhang <binbzha@qq.com>,1653565203,+0800,Binbin Zhang <binbzha@qq.com>,1653565203,+0800,"[doc] add python binding install guide
+"
+0866b12c6fcc17cb3d0405ad43b5334209f3c62c,7ae9541e31af8934b70f5cc74a3f468fe0f23424,['8a276438e86e5a99e08f57aa817d5e50d7ac058c'],pengzhendong <pengzhendong@users.noreply.github.com>,1619346092,+0000,pengzhendong <pengzhendong@users.noreply.github.com>,1619346092,+0000,"Automated deployment: Sun Apr 25 10:21:32 UTC 2021 6b23fa820344689ae9c8017da71da0bcb514713a
+"
+0869d032516fb434d7345522e4009f110bc0fe67,d4f06616bd0a552240b4cb5478fd98279b16ce9f,['f2847a1b39d7135f46b062ccdcadc764da0d1e17'],qmpzzpmq <405691733@qq.com>,1637546218,+0000,qmpzzpmq <405691733@qq.com>,1637546218,+0000,"conf add
+"
+087dfd48b0942bbd4bf2e6570936a0b4dbee2c5a,d2fc15e630b08a0c9bdefecf7f0a9eec65ee8b68,['844be5b6aafa1c109ffddb241198730ecef3df77'],huanglk-202 <huanglk@uvoicetech.com>,1620793357,+0800,huanglk-202 <huanglk@uvoicetech.com>,1620793357,+0800,"[Add] Support swap  the order of the convolution module and the multi-head self-attention module as described in https://arxiv.org/pdf/2011.10798.pdf.
+"
+0884286784855c3857fd80935ea9cd67f8dd457e,ccb57480cb89a0e94028c2d6087d36abfc2330f4,['7260216cd5b33b72b225a81de9dd27d9198b4fdf'],Binbin Zhang <binbzha@qq.com>,1678378670,+0800,GitHub <noreply@github.com>,1678378670,+0800,"[wenet] add __init__.py for wenet module (#1728)
+
+"
+088b9363e6175897833c40d19b1d09214960ecec,fd05596e61cfb7e0e91e0ec0d81b70c88872be47,['0de0bddbdb419e609ae2f8a6c444ec0beb4ae67e'],shanguanma <nanr9544@gmail.com>,1702377740,+0800,shanguanma <nanr9544@gmail.com>,1702377740,+0800,"update wenet model simple introduction
+"
+08b031bc0a480748ec91e7d3d593f3fa2ed1256c,d1db6fce512a460a28271e387f725cc9b22f22a6,['eae7656b2dc1aab55b9cafa6b85d3b918323e7f1'],彭震东 <275331498@qq.com>,1721636642,+0800,GitHub <noreply@github.com>,1721636642,+0800,"[fix] fix paraformer search.py (#2580)
+
+* [fix] fix paraformer search.py
+
+* fix lint"
+08c49aad6e9b9b77f14844dd08536b3748421134,150be7c23a2132de77c7e86fe72741d9ac6a4c39,['59733527b814d9540c78a5a3813a27138cbd960e'],yygle <yygle@qq.com>,1665326866,+0800,yygle <yygle@qq.com>,1665326866,+0800,"fix formatting issue
+"
+08c6df031d5b5ec99c955630078380edcb99fb36,33d38942908ec93759e80c28e1ce35f43d3ab49d,['37905091eaa7751b465a41f185eba1b0b850e15b'],Mddct <hamddct@gmail.com>,1696835711,+0800,Mddct <hamddct@gmail.com>,1696837279,+0800,"[ssl/w2vbert]  support part of w2vbert training
+"
+08d0a58cc87f6cc3fc90227363a2e684f5096422,22cadf0d78e261f8c81d3955253e4a8e4ca71c0e,['fbec55613f630f6a1e030e9cfe2c0508d0b5fd0f'],yuanwangliu <yuanwangliu@163.com>,1629886632,+0800,yuanwangliu <yuanwangliu@163.com>,1629886632,+0800,"fixed the new DecodeResource interface bug
+"
+08d397303bd81f87998ae98a8879b0bb89ce2451,7d05aa8d76eca3b9df9e758c3c3d2485ecd81424,"['07eaf7246bcfb4f180eaa61aa13160993a61981d', '76d39d793af65d33b2fd8a6c7b36a2e09677097e']",zelda3721 <zelda3721@yahoo.co.jp>,1640567106,+0800,GitHub <noreply@github.com>,1640567106,+0800,"Merge branch 'wenet-e2e:main' into main
+"
+08d587389a7119adbd0e10db9b6ddc68022d8e56,8509e9646ebffd18671ac388d30395134fabf231,['75a463a7a48dda3b9b56795b82f8d0fc4b7680f8'],Chao Yang <385526069@qq.com>,1611744433,+0800,GitHub <noreply@github.com>,1611744433,+0800,"[fix] fix speed perturb and dither related bugs (#105)
+
+* fix speed perturb bugs
+
+* fix conformer config"
+08e8970af407f9177708bd804285ead836cf5933,93571d547f69dacfa4aa68f688b0befd87cb4a5b,['0bfd672a661229b275807d0e5b6bf56e067b3237'],Mddct <hamddct@gmail.com>,1713328207,+0800,Mddct <hamddct@gmail.com>,1713328207,+0800,"fix activation
+"
+08f12398f2cad17b7b1868f11a5e3b585ec9bb21,0ee51b47feacd1339ef936f3330f49348126f791,"['1bb79c352e3443bd3625ea6cb3813eb45d45595a', 'b5ced72e6fa6601204ae2562a39a4ed182a1efd3']",slyned <slyned@nvidia.com>,1653555974,+0800,slyned <slyned@nvidia.com>,1653555974,+0800,"Merge branch 'main' of https://github.com/Slyne/wenet
+"
+08fe886cad707060642e475eb86efd1c15490539,9fe1dee16032721a85c6b8cdb49603a4f24659cf,['34655ecea05ec98043e8e3e3ffcc9c2991fc389a'],Wenjing Xia <827146228@qq.com>,1616745725,+0000,Wenjing Xia <827146228@qq.com>,1616745725,+0000,"update result
+"
+09076699f1f890942a77091bdc742cccd7811317,2dca17449a373f87377dcc0e4403b2b1eb66abcc,['7d627c29595e14f29caa4e578904a8db1586541d'],Mddct <hamddct@gmail.com>,1706453146,+0800,Mddct <hamddct@gmail.com>,1706453146,+0800,"add missing speaker
+"
+0913bb9ae3fdbe2623a458f36695572995dc1bfa,32c3b72eb68f4b3e3c2dd8f692a0f1c1e56615bd,['24138973b46a35ec87798d6c245f50f33a4c9658'],wrz1999 <609519258@qq.com>,1651258433,+0800,wrz1999 <609519258@qq.com>,1651258433,+0800,"t6
+"
+09188428ab109b53ea306440facc14da8ee2720c,42a3b600ac191fb6ad5e785de80571b552fea6f8,['974ada11059bece0e5642cfe7a9c14aaccbb8329'],yuch <cy823236858@gmail.com>,1670397776,+0800,yuch <cy823236858@gmail.com>,1670397776,+0800,"commit after rebase
+"
+091df4cbcf342b4f604ae218642acbe90ce670db,b37db1995f85646e7bc9f1a487abe28c81dfec77,['faba058f6abe34a78a9224ccff3273fb4603963f'],Xingchen Song(宋星辰) <xingchensong1996@163.com>,1698992413,+0800,GitHub <noreply@github.com>,1698992413,+0800,"fix(recipe): fix run.sh for all recipes (#2109)
+
+"
+09229823be83b5bcbcfef5297c9b1afc37e93fd7,dc6e0acc6c3de4df40bbfab1bd3c60df8b04d5fa,['36a70e0d0dd0cb7bb6fc03e1c0b541d9677214e6'],robin1001 <robin1001@users.noreply.github.com>,1699362732,+0000,robin1001 <robin1001@users.noreply.github.com>,1699362732,+0000,"Automated deployment: Tue Nov  7 13:12:12 UTC 2023 5faf24bf0e121ae05b34bec02214956157f2f250
+"
+0926c301e642116264cef7ae827072dbd3aa6374,97af32decdf0870f0cd92bc3df3fd6824d459519,['f4e38236626d0be476a36fc40ba49019fb7f37df'],xingchensong <xingchensong1996@163.com>,1685066374,+0800,xingchensong <xingchensong1996@163.com>,1685066374,+0800,"feat(deepspeed): refine if-else
+"
+092a9fe3d5d63e2c689ceac9c702717acd979717,7ab6973ea55d3b3a9551df284709d652bc137d8c,['8412f189ba531d6035a1bcbecf636a2e81e93647'],Di Wu <1176705630@qq.com>,1611736103,+0800,Di Wu <1176705630@qq.com>,1611736103,+0800,"[doc] move s0 to s1
+"
