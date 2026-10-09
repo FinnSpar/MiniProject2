@@ -1,0 +1,11 @@
+Project;ncommits;nauthors;from;to;LongestGapStart;LongestGapEnd;LongestGapLength;NumCommitsAfterLastGap;NumberOfGapsInTimeline;ActivityPattern;nstars;nforks;lastGHCommitDate;BeforeThemes;AfterThemes
+mobvoi_wenet;6724;387;2020-09-25T07:50:01+00:00;2025-11-03T01:59:37+00:00;2025-05;2025-05;1;76;0;declining;5243;1190;2026-09-07T07:21:08Z;Feature development:Bug fixes;Feature development:Bug fixes
+pbs-assess_gfsynopsis;2324;12;2018-02-23T19:04:28+00:00;2025-10-09T18:13:32+00:00;2020-12;2021-04;5;951;3;irregular;17;1;2026-09-19T23:19:56Z;Other:Feature development;Feature development:Bug fixes
+pmlmodelling_ersem;1115;31;2011-02-22T11:21:45+00:00;2026-03-11T11:34:16+00:00;2012-07;2013-01;7;1100;9;irregular;30;14;2026-08-18T13:51:19Z;Other:Bug fixes;Feature development:Dependency updates
+vearch_vearch;1480;105;2019-05-13T02:37:32+00:00;2026-04-18T14:48:23+00:00;2022-08;2023-02;7;925;2;irregular;2331;365;2026-07-27T05:29:53Z;Documentation updates:Other;Feature development:Other
+hannorein_rebound;6549;172;2011-07-02T13:12:58+00:00;2025-11-12T04:15:26+00:00;2014-01;2014-03;3;5745;1;irregular;1138;270;2026-10-06T12:13:52Z;Other:Feature development;Other:Feature development
+soedinglab_mmseqs2;6960;153;2012-12-17T09:07:30+00:00;2025-11-12T03:28:26+00:00;2013-05;2013-05;1;6933;0;declining;2148;303;2026-09-30T04:36:10Z;Other:Feature development;Other:Feature development
+hpddm_hpddm;758;13;2014-11-23T14:37:05+00:00;2025-10-20T18:32:44+00:00;2018-10;2018-12;3;507;2;irregular;160;37;2026-09-26T19:46:30Z;Feature development:Bug fixes;Bug fixes:Feature development
+stephenslab_mr.mash.alpha;770;7;2020-01-17T22:18:38+00:00;2025-02-04T23:57:16+00:00;2021-11;2022-03;5;211;2;declining;7;5;2026-02-16T16:00:01Z;Bug fixes:Other;Bug fixes:Documentation updates
+gem_oq-engine;189681;273;2010-07-21T21:41:45+00:00;2026-04-15T08:01:47+00:00;;;0;;0;declining;451;325;2026-10-08T02:09:51Z;N/A;N/A
+sixin-zh_kymatio_wph;667;13;2019-01-18T20:17:58+00:00;2025-04-10T14:37:11+00:00;2022-04;2024-09;30;2;6;declining;0;0;2025-04-10T14:37:11Z;Documentation updates:Feature development;Other:Documentation updates

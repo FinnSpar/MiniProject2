@@ -1,0 +1,365 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;mobvoi_wenet;535eb939fb904d7063083bcb5d8da3e51c2f051d;Adiljan Abuduniyaz <126153483+AdilAdam@users.noreply.github.com>;1744772869;fix file
+pre;mobvoi_wenet;2e4bc4fe2df0b7d2ce20fafc95937d5c6448664b;Adiljan Abuduniyaz <126153483+AdilAdam@users.noreply.github.com>;1744773023;Update batch streaming
+pre;mobvoi_wenet;f1d12934879ba390e516ab67924f920ba77e1243;Adiljan Abuduniyaz <126153483+AdilAdam@users.noreply.github.com>;1744773031;"Merge branch 'wenet-e2e:main' into main
+"
+pre;mobvoi_wenet;0e817e468a7197cad76241f30e1c290f037a68a9;Adiljan Abuduniyaz <126153483+AdilAdam@users.noreply.github.com>;1744773373;Update bat
+pre;mobvoi_wenet;3e027ee9143d33a0d58b54c51427e1242c7b6a02;khanld <khanhle218@gmail.com>;1744819622;"[feat] add chunkformer training config and results
+"
+pre;mobvoi_wenet;7e633599c0cdbd2e7dcee9e160294b58438b5598;khanhld <khanhld218@gmail.com>;1744869277;"Fix: Address linting errors reported by quick-checks
+"
+pre;mobvoi_wenet;82aa9e4c7f646c230cde9d3bc2e331e0b2c22f9b;khanld <khanhle218@gmail.com>;1745482218;"[feat] add chunked context training
+"
+pre;mobvoi_wenet;d74f4d8f2dbe72366fb539a6fb5f7f4bef5dbc67;computervisionlearner <361767553@qq.com>;1745654620;"refactor moe of positionwise_feed_forward to let us convert onnx success
+"
+pre;mobvoi_wenet;6d925c98229f2b21ca95b6a3729424220e76ec3e;khanld <khanhle218@gmail.com>;1745913885;"[feat] add chunk context training, inference results
+"
+pre;mobvoi_wenet;6948c56321e1f0a4b3444077dc051863781d4aef;khanhld <khanhld218@gmail.com>;1745914255;"[fix] address linting errors reported by quick-checks
+"
+post;mobvoi_wenet;a62c267ea4d4a3875aa05802e3acc1f7bcb5107c;Dinghao Zhou <hamddct@gmail.com>;1748765514;[utils] support list of train_data
+post;mobvoi_wenet;d215664580194a873b57f22840c58617b146838d;Dinghao Zhou <hamddct@gmail.com>;1748765961;"[utils] support list of train_data (#2733)
+
+"
+post;mobvoi_wenet;04a9287d089387fb1ea18e3ac82c19245c1bc21a;xingchensong <xingchensong@users.noreply.github.com>;1748766062;"Automated deployment: Sun Jun  1 08:21:02 UTC 2025 d215664580194a873b57f22840c58617b146838d
+"
+post;mobvoi_wenet;da2502c63c83ee4a784fd9001e5166e941f53a8c;computervisionlearner <33013384+computervisionlearner@users.noreply.github.com>;1748914299;"Merge d74f4d8f2dbe72366fb539a6fb5f7f4bef5dbc67 into d215664580194a873b57f22840c58617b146838d
+"
+post;mobvoi_wenet;e3235a694e6f9296e6f449961937c8a852fe42b2;Mddct <hamddct@gmail.com>;1749625349;"[dataset] add skip first data for resume
+"
+post;mobvoi_wenet;3723122c6fe558d5bc60270512b3909b66a9451b;Dinghao Zhou <hamddct@gmail.com>;1752289224;[cmvn] clean code
+post;mobvoi_wenet;f22e77f5d0fac793d06492534974ad9bd178874c;MXuer <muxiaoering@163.com>;1754460427;"fix the bug [TypeError: cannot pickle 'generator' object] for more than one epoch training.
+"
+post;mobvoi_wenet;39c7d8c55248c91862bcd31e4ac495faa3999742;Binbin Zhang <binbzha@qq.com>;1757050004;"[cli] use pt model for cli
+"
+post;mobvoi_wenet;7b304ed69ad07066c3561da9016b427778bd8d25;Binbin Zhang <binbzha@qq.com>;1757050298;"fix lint
+"
+post;mobvoi_wenet;fac906be479c060b14f989a84a826a3279136256;Binbin Zhang <binbzha@qq.com>;1757050812;"fix lint 2
+"
+pre;pbs-assess_gfsynopsis;5e1c7c5c5a71aca563dd157df521e3542dad9d20;Sean Anderson <sean@seananderson.ca>;1585948511;"Update make-geostat.R
+"
+pre;pbs-assess_gfsynopsis;581d1516237b23c4f688baf0e393ec551492d8ea;Sean Anderson <sean@seananderson.ca>;1585948664;"Tidying
+"
+pre;pbs-assess_gfsynopsis;912c55ba46ea0b5829bdd0a856b53f0f2ba477aa;Sean Anderson <sean@seananderson.ca>;1585948762;"Remove extra line
+"
+pre;pbs-assess_gfsynopsis;6cce916626645f86a5d3af572a47f4cefbc6371d;Elise Keppel <elise.keppel@dfo-mpo.gc.ca>;1587600613;"Add ref for inshore rf assessment
+"
+pre;pbs-assess_gfsynopsis;ca40cb8886f618335c817b757b6bfd8fa7621b69;Sean Anderson <sean@seananderson.ca>;1591116061;"Extract more pages
+"
+pre;pbs-assess_gfsynopsis;ecc4f23bc4f7a65172efe4f1ef2a644faed2c366;Sean Anderson <sean@seananderson.ca>;1601580519;"as.tbl -> as_tibble
+"
+pre;pbs-assess_gfsynopsis;d05a24e118a396c1877cd9f0fe48c36b1a2e32ed;Sean Anderson <sean@seananderson.ca>;1601589879;"Merge branch 'master' of github.com:pbs-assess/gfsynopsis
+"
+pre;pbs-assess_gfsynopsis;07e2e77f05cdddf800ed99277f7be2356ca5f371;Sean Anderson <sean@seananderson.ca>;1601589948;"Add vec figs script
+"
+pre;pbs-assess_gfsynopsis;fb9bba20604ba0f8e11c540ad1a9d02c0e9aab02;Sean Anderson <sean@seananderson.ca>;1601589974;"Merge branch 'master' of github.com:pbs-assess/gfsynopsis
+"
+pre;pbs-assess_gfsynopsis;98862cad7b4997cbd72b205a8f03d97bde030a0a;Sean Anderson <sean@seananderson.ca>;1605137674;"Updates to preprint version
+"
+post;pbs-assess_gfsynopsis;c0837c91716bc3d3a7aa3bc2446ba4fcf5c87db8;ecophilina <paenglis@lakeheadu.ca>;1620778055;"sample work around code for MCP and CPUE map
+"
+post;pbs-assess_gfsynopsis;5d6888b9749f6e7d49c4d1966d0fbde9f35414a2;Sean Anderson <sean@seananderson.ca>;1622499925;"Pre-fit CPUE models for sanity
+"
+post;pbs-assess_gfsynopsis;16f3a246f0daa5d2eb56ef09b2cf9b23e03a5a8c;Sean Anderson <sean@seananderson.ca>;1622500103;"Fix typo
+"
+post;pbs-assess_gfsynopsis;7193a4935f81aaed432c410f22e24c0e55835389;Sean Anderson <sean@seananderson.ca>;1622500118;"Switch back to old 'tows' for CPUE
+"
+post;pbs-assess_gfsynopsis;0b348075a36fb026dd261e5cae7dbf3338968fbb;Sean Anderson <sean@seananderson.ca>;1622500129;"Bump roxygen
+"
+post;pbs-assess_gfsynopsis;447c84410f05fac32801296239d2b2b32da605ba;Sean Anderson <sean@seananderson.ca>;1622500155;"Add code to examine sigmaO, sigmaE, range
+"
+post;pbs-assess_gfsynopsis;1df5f9344ab95f64646ec164f7d210c91532ebb6;Sean Anderson <sean@seananderson.ca>;1622500164;"Update docs
+"
+post;pbs-assess_gfsynopsis;dc05583a8315efcabae1f0089acdc82d11774b35;Sean Anderson <sean@seananderson.ca>;1622500210;"Make cpue-cache first
+"
+post;pbs-assess_gfsynopsis;74648da122bcd2be3f9873bd5b58fee92dc5a9ec;Sean Anderson <sean@seananderson.ca>;1622500670;"Deal with effort/hours_fished change
+"
+post;pbs-assess_gfsynopsis;da99ee144442330a5a5bec23dedea80c679b352d;Sean Anderson <sean@seananderson.ca>;1625529741;"Bump default year
+"
+pre;pmlmodelling_ersem;2e612b0578f804b4e78bbe96977414488f6dcc6c;jornbr <jornbr@5362ad47-ea5d-43ec-ade3-0ade0361cc23>;1298381169;"set eol-style property to native for all text files
+
+git-svn-id: https://rmbm.svn.sourceforge.net/svnroot/rmbm@213 5362ad47-ea5d-43ec-ade3-0ade0361cc23
+"
+pre;pmlmodelling_ersem;b6046f14ed803a2b718aff6e4d54c2c55408da40;Jorn Bruggeman <jorn@bolding-burchard.com>;1313656604;"standardized model identifiers; renamed co2sys to carbonate
+"
+pre;pmlmodelling_ersem;7bc88a15f3afde7436723bb01b5fd30c25474039;Jorn Bruggeman <jorn@bolding-burchard.com>;1315305637;"separated driver settings (gotm_fabm.nml) from fabm settings (fabm.nml); moved ersem spatial domain specification
+"
+pre;pmlmodelling_ersem;48f6c3382ff54282667a94bba96a709a945bc282;Jorn Bruggeman <jorn@bolding-burchard.com>;1315392386;"fixed intent of model in pml_ersem_set_domain
+"
+pre;pmlmodelling_ersem;817e3735a4380a88cd5bf80811e49d1124ea3abc;Karsten Bolding <bold@dmu.dk>;1322038627;"added remove_blanks_at_end_of_line.sh and removed trailing blanks
+"
+pre;pmlmodelling_ersem;399c8af07ca0e649278080850d537d6e16e82f2e;Karsten Bolding <bold@dmu.dk>;1322045545;"removed old CVS  tags
+"
+pre;pmlmodelling_ersem;006a54b316ceacecbc3da1d6eb461dede11b5175;Karsten Bolding <bold@dmu.dk>;1327502586;"initial support for ProTex documentation
+"
+pre;pmlmodelling_ersem;85121d4eff491e5746bfb99cabb82550b6947985;Jorn Bruggeman <jorn@bolding-burchard.com>;1338797691;"replaced type(type_model_info) by _CLASS_(type_model_info) to accommodate gfortran 4.6
+"
+pre;pmlmodelling_ersem;6fbe505fba71bcf13bbfdc27659ee25b734bacab;Karsten Bolding <karsten@bolding-burchard.com>;1339326241;"simpler Makefiles in the models directory
+"
+pre;pmlmodelling_ersem;19466640580aeb6d6e3f28f50a7bacd8ebfa7fa8;Karsten Bolding <karsten@bolding-burchard.com>;1339334823;"get library filename from Rules.make
+"
+post;pmlmodelling_ersem;336b423de64e6784de54bdad4f27500ec4895abe;Jorn Bruggeman <jorn@bolding-burchard.com>;1360061263;"FABM API revision 0.9
+"
+post;pmlmodelling_ersem;de26434b98f36b8e8669eebb91abddbcce879350;Jorn Bruggeman <jorn@bolding-burchard.com>;1360065171;"replaced preprocessor macros by variable identifier types in all models [FABM API 0.9]
+"
+post;pmlmodelling_ersem;6eb03bf977c2798627477e61a4e0836cb052be32;Jorn Bruggeman <jorn@bolding-burchard.com>;1360065515;"replaced REALTYPE by real(rk) in all models [FABM API 0.9]
+"
+post;pmlmodelling_ersem;37944b1716f525ef64aaee3c73c8443d6a90344f;Jorn Bruggeman <jorn@bolding-burchard.com>;1360144997;"changed _SET_DIAG_ to _SET_DIAGNOSTIC_ in remaining models
+"
+post;pmlmodelling_ersem;31ac8c73a30f2276c5430c6bd7743cf517a9b3a8;Jorn Bruggeman <jorn@bolding-burchard.com>;1367319352;"added empty vphyt1.F90
+"
+post;pmlmodelling_ersem;148dab9a69d2aa06961dd04cc085ba95d2037bfa;Momme Butenschoen <momm@pml.ac.uk>;1367319596;"Added mesozooplankton for repository testing.
+"
+post;pmlmodelling_ersem;307e52a56a009a152e0fadc6b22e63bf17a7fc50;Jorn Bruggeman <jorn@bolding-burchard.com>;1367332312;"first version of vphyt1
+"
+post;pmlmodelling_ersem;6ee0092e4e65323b9489486f6c295791e9a5cadd;Jorn Bruggeman <jorn@bolding-burchard.com>;1367332325;"Merge branch 'master' of https://bitbucket.org/jornbr/fabm-ersem
+"
+post;pmlmodelling_ersem;5e04caf1ec096b39eb837b35dd017a75da5fcd9a;Jorn Bruggeman <jorn@bolding-burchard.com>;1367336862;"got vphyt1 running; added empty dom,pom,nutrients,gas_dynamics
+"
+post;pmlmodelling_ersem;92ba67173a3dfa7c37b255ca12f652b10cb181c8;Jorn Bruggeman <jorn@bolding-burchard.com>;1367351162;"fixed build with IRON defined; enable vphyt1 sinking; initialize pom/dom to 0
+"
+pre;vearch_vearch;772c86e98c8b8bdd87dc9cf454dd06b155e77571;lqhandsome <46018150+lqhandsome@users.noreply.github.com>;1648196266;Update APILowLevel.md
+pre;vearch_vearch;9af6700db075c0aa07e2233fbb7a3b78eb7edfec;ljeagle <77149863@qq.com>;1648304956;Delete 72AD7154-022E-428A-B8C8-68329109937D.png
+pre;vearch_vearch;bfe91696321c579ec1060dcc40bf340235f3dec9;ljeagle <77149863@qq.com>;1648306222;Add the WeChat communication group of search
+pre;vearch_vearch;7fe96a9306a865450978d50b28ce100ec4b64d13;ljeagle <77149863@qq.com>;1648306404;Update the Wechat official communication group
+pre;vearch_vearch;c7f4050023a851408b728bc3eaf1de5ed42c1b49;ljeagle <77149863@qq.com>;1648306673;Delete VearchCommunicationGroup.jpg
+pre;vearch_vearch;be70342ca09ba340eae781b847f41b2c32b482fd;ljeagle <77149863@qq.com>;1648307976;Add offical wechat communication group
+pre;vearch_vearch;4a02a2e7c4378b19898263461fc06abc09a23e72;ljeagle <77149863@qq.com>;1648308205;Update README.md
+pre;vearch_vearch;61f20f7efcf2f2113139c545f4d9951cabda518a;ljeagle <77149863@qq.com>;1648308268;Update README.md
+pre;vearch_vearch;d75e9f2981f9244f8d3681d5d62eb751074035fe;zcdb <53439076+zcdb@users.noreply.github.com>;1648437899;"Merge pull request #621 from lqhandsome/modify-api-doc
+
+文档有误"
+pre;vearch_vearch;d49d5e73477f4365482836cb33b8bed11a83170a;ljeagle <77149863@qq.com>;1658471082;latest wechat group
+post;vearch_vearch;b9c62faf80540339aaa827d7c77ffc8670b4caa0;Blade Haifeng Liu <bladehliu@users.noreply.github.com>;1679669189;Update README.md
+post;vearch_vearch;9e09543ecf4bb1ce0fd502b7d5e36d78a2f3e05e;didalaviva <300wangzi@sina.com>;1680089412;"数据目录差异化 && 编译脚本
+"
+post;vearch_vearch;1ea5acf81d41e6aca1e3bc91a9c22174e4a8adcc;David Xie <xieyuxinwork@126.com>;1680090269;"Merge pull request #1 from cubefs/develop
+
+数据目录差异化 && 编译脚本"
+post;vearch_vearch;f3494f2342b169f80ab119960fcce1f9468c4b76;wangfuqiang <wangfuqiangg@126.com>;1680092551;"添加 cubefs mount 脚本
+"
+post;vearch_vearch;f6c664538034a208b4386a2c0476bed94b460010;wangfuqiang <wangfuqiangg@126.com>;1680092696;"添加 cubefs mount 脚本
+"
+post;vearch_vearch;6dff42bab9f48b9586f64ce10ec58a19f41cbaac;David Xie <xieyuxinwork@126.com>;1680092822;"Merge pull request #2 from cubefs/develop
+
+添加 cubefs mount 脚本"
+post;vearch_vearch;37dfbab88e5baa7e1cffef8115abc965021f411b;IvanXie <xieyuxinwork@126.com>;1680333823;"add
+"
+post;vearch_vearch;c39bac54e0b6626ba187a5b195933f933c5fae4d;wangfuqiang <wangfuqiangg@126.com>;1680524030;"删除 raft 写
+"
+post;vearch_vearch;5da2641705ecf507abdad0df515632f928f98a40;wangfuqiang <wangfuqiangg@126.com>;1680524055;"Merge branch 'develop' of github.com:cubefs/vearch into develop
+"
+post;vearch_vearch;6d5268e04a5a3200e68d7c566e7c68527fd3ce64;didalaviva <300wangzi@sina.com>;1681183366;"delete raft v1
+"
+pre;hannorein_rebound;605b2be97f70a55c8ed712ca8bafc4471181f7cf;Hanno Rein <hanno@hanno-rein.de>;1373247855;"Merge branch 'master' into impulseintegratorrealistic
+"
+pre;hannorein_rebound;b9501f64b6eca1378db7230f46867445fff4ebe7;Hanno Rein <hanno@hanno-rein.de>;1374857239;"Removed debugging output file from RADAU15 integrator.
+"
+pre;hannorein_rebound;acd5dd08fab37fd3a9469a84a147923374ec6efd;Hanno Rein <hanno@hanno-rein.de>;1376768060;"statistcis
+"
+pre;hannorein_rebound;6597492cae762c1a98df66c4c42fb4072592ddf4;Hanno Rein <hanno@hanno-rein.de>;1376922193;"move to frigga
+"
+pre;hannorein_rebound;922dd8241b413cdb5642287615dcbc5a6963bb62;Hanno Rein <hanno@hanno-rein.de>;1376933816;"parallel
+"
+pre;hannorein_rebound;ae6f326837c02109137eb17e9e05d62a091cfc95;Hanno Rein <hanno@hanno-rein.de>;1381334751;"Removed debugging output in RADAU 15 integrator.
+"
+pre;hannorein_rebound;23e6655d16cd27026b86c389d0d18519a7b9743e;Hanno Rein <hanno@hanno-rein.de>;1381334807;"Merge branch 'master' of github.com:hannorein/rebound
+
+Conflicts:
+	src/integrator_radau15.c
+"
+pre;hannorein_rebound;81de744ea6ff771f29ba64eb0dfb29c6d436eac5;Hanno Rein <hanno@hanno-rein.de>;1381334892;"removed steps variable.
+"
+pre;hannorein_rebound;dd431c004e0b4f36657182c5d8cb686eaddb0e97;Hanno Rein <hanno@hanno-rein.de>;1385309966;"Latest RADAU15
+"
+pre;hannorein_rebound;c3187548849dae51d6c47d44a7c9e97af17fbc59;Hanno Rein <hanno@hanno-rein.de>;1386462571;"Removed clipping plane bug.
+This bug only only occured when the boxsize was much less than 1.
+"
+post;hannorein_rebound;bef1d3c3e39489967a802ad7a112a0f21b80bff0;Hanno Rein <hanno@hanno-rein.de>;1396964976;"removed MPI
+"
+post;hannorein_rebound;542c3421dd19fa6b5fe30c8607c8cc3fd00a5ab1;Hanno Rein <hanno@hanno-rein.de>;1396965016;"Merge branch 'master' into wakes
+
+Conflicts:
+	src/collision_resolve.c
+"
+post;hannorein_rebound;18617fc42e69b0694d9a15d26f174654576c2d3d;Hanno Rein <hanno@hanno-rein.de>;1397245325;"Chariklo parameters
+"
+post;hannorein_rebound;e8fa4e1ca276a9217cb59144c42f93425acb4d61;Hanno Rein <hanno@hanno-rein.de>;1397569467;"minor changes
+"
+post;hannorein_rebound;f6c64bc037fcbaf856472c2a8beaa8adac42ccf3;Hanno Rein <hanno@hanno-rein.de>;1397569514;"removed warnings
+"
+post;hannorein_rebound;511296c7b778b6e97faedea0f97b81107cd611af;Hanno Rein <hanno@hanno-rein.de>;1397569530;"Merge branch 'master' into wakes
+"
+post;hannorein_rebound;e71e920df32994852353ea1a892e35487a42c163;Hanno Rein <hanno@hanno-rein.de>;1397569642;"Removed GCC ignore statement.
+"
+post;hannorein_rebound;b8bf5305ac5165c990ae74504cd6fec76ebe1896;Hanno Rein <hanno@hanno-rein.de>;1397569661;"Merge branch 'master' into wakes
+"
+post;hannorein_rebound;0e3f1252f0182b4f71142204a66463e4493a500f;Hanno Rein <hanno@hanno-rein.de>;1397569748;"no deprecated warnings
+"
+post;hannorein_rebound;38ddb696c437b07b91bc7720356d93c5cb4d26b6;Hanno Rein <hanno@hanno-rein.de>;1397569905;"more output
+"
+pre;soedinglab_mmseqs2;c57aca5e6c243509b253414dea4c57a6303a052f;Martin Steinegger <steinegger_martin@web.de>;1364979415;"QueryScore change (new sse version)
+"
+pre;soedinglab_mmseqs2;82dc55e4899c5deaae0b76c494ff2de4a82bd3f7;Martin Steinegger <steinegger_martin@web.de>;1365507617;"Saturating add
+"
+pre;soedinglab_mmseqs2;5cabe4e1ddce5c0bee34d0028a83b356c7f1c740;Martin Steinegger <steinegger_martin@web.de>;1365517198;"Make + QueryScore change
+"
+pre;soedinglab_mmseqs2;9f739bc00fb6262f93ebfba9db6e09109db48c32;Maria Hauser <mhauser@genzentrum.lmu.de>;1365592092;"Testing script
+"
+pre;soedinglab_mmseqs2;d8ae666af5a82238533787e75f55fb16c8094104;Maria Hauser <mhauser@genzentrum.lmu.de>;1365592344;"Merge remote branch 'remotes/main_repo/master'
+"
+pre;soedinglab_mmseqs2;e9fa8e91c75f66a3840ff55886e17d1c880777e2;Maria Hauser <mhauser@genzentrum.lmu.de>;1365594609;"Removed SSE versions of QueryScore from the serial branch
+"
+pre;soedinglab_mmseqs2;452363fad632cbb7d64196fad4ab43b0c6c7b81b;Maria Hauser <mhauser@genzentrum.lmu.de>;1365597320;"Removed serial versions of QueryScore
+"
+pre;soedinglab_mmseqs2;08493cd2fd50fe2468f6f2c675b1b87e3bfd011a;Maria Hauser <mhauser@genzentrum.lmu.de>;1365683224;"Removed warning causes in Maria's files
+"
+pre;soedinglab_mmseqs2;2634900b724b82af95b118229e5475d64d65e35c;Maria Hauser <mhauser@genzentrum.lmu.de>;1365684725;"QueryScore renamed back, some minor changes
+"
+pre;soedinglab_mmseqs2;5aa655613a2a3329cf5c307f9a87a1a86f557960;Martin Steinegger <steinegger_martin@web.de>;1365780710;"Remove warnings
+"
+post;soedinglab_mmseqs2;b6d68ebee4285162370148629fd1fde895eaaf77;Martin Steinegger <steinegger_martin@web.de>;1370271096;"QueryScore local / global split
+"
+post;soedinglab_mmseqs2;f48ea6314337d6a3a6c2e3ab9fbb3871dd148859;Maria Hauser <mhauser@genzentrum.lmu.de>;1370617770;"intermediate version of the variable prefiltering score
+"
+post;soedinglab_mmseqs2;15aaa66171d2b78cf904241b746cb8ce918c8303;Maria Hauser <mhauser@genzentrum.lmu.de>;1370623534;"Merge branch 'master' of file:///cluster/user/maria/git_repo/kClust2
+
+Conflicts:
+	src/module1/QueryScore.cpp
+	src/module1/QueryScore.h
+	src/module1/QueryTemplateMatcher.cpp
+"
+post;soedinglab_mmseqs2;beee58b7b189867fd0cb4d26005b890ca31ad616;Maria Hauser <mhauser@genzentrum.lmu.de>;1370861799;"Changed the package structure
+"
+post;soedinglab_mmseqs2;4b7e49c532045a3aff825bfc543819fead34643b;Maria Hauser <mhauser@genzentrum.lmu.de>;1371045777;"Re-written SW alignment object-oriented
+"
+post;soedinglab_mmseqs2;e81f0f5e7bb1857d4db38e3b46e9e0212cc9cda0;Maria Hauser <mhauser@genzentrum.lmu.de>;1371045845;"Deleted old files
+"
+post;soedinglab_mmseqs2;af4d3a1b1937a8607f5e8fd2c2eb44f23daeda05;Maria Hauser <mhauser@genzentrum.lmu.de>;1371735869;"Removed data files and some scripts
+"
+post;soedinglab_mmseqs2;c21865751f7961998a359066066c5c7314a63abe;Maria Hauser <mhauser@genzentrum.lmu.de>;1372414799;"There is a bug in the use of the ReducedMatrix, with parameters -k 7 -a
+13
+"
+post;soedinglab_mmseqs2;814ca9e2275e84f5cdf2c88deed9db2ecddc1957;Martin Steinegger <steinegger_martin@web.de>;1372605931;"KmerGenerator bug fix (size of array)
+"
+post;soedinglab_mmseqs2;bb7a7829ffba85be299cfa7d3445b60e3bcd59e8;Maria Hauser <mhauser@genzentrum.lmu.de>;1374766102;"Added variable threshold, automatic k-mer similarity threshold
+adjustment
+"
+pre;hpddm_hpddm;82e07f1f5775ebd4837d32a01f5a6bcacc0b518e;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1523444508;"Greatly simplifies PETSc examples.
+
+[ci skip]
+"
+pre;hpddm_hpddm;c07c971f6014bb686b4d17d2619141ba19b172bc;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1523609713;"Adds LAPACK matrix inversion routines.
+
+[ci skip]
+"
+pre;hpddm_hpddm;822eb57de3bb3431c74ce93d22d4a3ef1b270f5d;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1525335288;"Wrongfully picked Dirichlet boundary conditions.
+"
+pre;hpddm_hpddm;571e996eab10ad79787b9ad332e5fcbdc04e8175;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1525336004;"Missing changes.
+"
+pre;hpddm_hpddm;8432e28874c0b134badd17e392a8b791d6e7fc3a;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1525612051;"Simplifies PETSc examples.
+
+[ci skip]
+"
+pre;hpddm_hpddm;ed8c381e75b04955c216b213ed4e95257a847149;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1526804450;"New Elemental interface.
+
+* New mechanism to provide a user-built coarse operator.
+* GenEO eigenvalue problem for dense operators.
+"
+pre;hpddm_hpddm;22ca769760cc673ef4bb8385eef4e4e9eba07b17;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1527018496;"Do not always include mkl_version.h.
+
+[ci skip]
+"
+pre;hpddm_hpddm;1efa227b4713829d01a76192cdf1b778cccf2125;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1528712629;"Fixes a dangling pointer.
+
+[ci skip]
+"
+pre;hpddm_hpddm;d2c1634c4367f0bd5260cb82cb6d94fcb112f189;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1531298258;"LAPACK may now be used as the coarse grid solver.
+"
+pre;hpddm_hpddm;58158b54b1ff9f916b85f897adfb6993093d220f;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1537257143;"Fixes a bug with weirdly distributed matrices.
+
+[ci skip]
+"
+post;hpddm_hpddm;7fa6e0aa38c9e206bd49ac0db98db46117c24dae;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1547541434;"MatMatSolve for incomplete factorizations.
+"
+post;hpddm_hpddm;de77ce68134075162b2143eeb75248a67a9c2c4a;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1548017730;"Some cleaning and first attempt to fix Travis.
+"
+post;hpddm_hpddm;09fce0f5575c3b850a5c97fd671dd371d6b2b2ea;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1548071020;"Trying to switch from Trusty to Xenial.
+"
+post;hpddm_hpddm;eeba00044c50bcf034685b55d98fa2f97e166b15;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1548076864;"First attempt to fix Travis.
+"
+post;hpddm_hpddm;605b297e1a87441c10b171386dd2b27ec2815e81;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1548104711;"Small fix in a test.
+"
+post;hpddm_hpddm;a3721b95909d61a6995ce7e2bc4aa401f21e07e7;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1548167099;"Strange issue with the MKL in BGCRODR.
+
+[ci skip]
+"
+post;hpddm_hpddm;e7723a74a7280ba09c86ee51f774a730faecc317;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1549027983;"Updates how options work for multilevel methods.
+"
+post;hpddm_hpddm;5df9d1d5f057b4d8f2561c2318f2718ca6e31925;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1549065307;"Previous fix for BGCRODR was wrong.
+"
+post;hpddm_hpddm;ddcd6e266e805a76c09f9658f078152fdd6e1699;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1549465659;"Changes the name of one routine.
+
+* New function to exchange overlapping values of a matrix.
+"
+post;hpddm_hpddm;fa03130fbfed8c3260516548ebf80ac05d90127d;Pierre Jolivet <pierre.jolivet@enseeiht.fr>;1549521960;"Uses a sorted vector for better performance.
+"
+pre;stephenslab_mr.mash.alpha;750c115afbf854380992948a408c2fcca7c913c6;fmorgante <fmorgante@uchicago.edu>;1615585825;"Fix bug
+"
+pre;stephenslab_mr.mash.alpha;948f3d04765ddf490fc67bca781cb670801656a7;fmorgante <fmorgante@uchicago.edu>;1615587274;"Add names to S0
+"
+pre;stephenslab_mr.mash.alpha;b0f4fc2507d99eb1c20655945a9b62f15edce777;fmorgante <fmorgante@uchicago.edu>;1615594963;"Simplify code
+"
+pre;stephenslab_mr.mash.alpha;613847bb03622a6d4d77f5c07586558925573834;Fabio Morgante <fabiom@clemson.edu>;1621269082;"Add mashr github version to remotes
+"
+pre;stephenslab_mr.mash.alpha;39e46a48c3b20ee2e63e90377a4b98c891050368;Fabio Morgante <fabiom@clemson.edu>;1623336702;"Add dimension names to output of compute_univariate_sumstats
+"
+pre;stephenslab_mr.mash.alpha;2925267a1adf641e0f3c66549c9e29290efaf537;Fabio Morgante <fabiom@clemson.edu>;1624037105;"Break when only one component survives w0_threshold
+"
+pre;stephenslab_mr.mash.alpha;1ef4e49388bb510f4c21c2e46801a7deabcde9a2;Fabio Morgante <fabiom@clemson.edu>;1624046420;"Fix bug
+"
+pre;stephenslab_mr.mash.alpha;fd750f0ab4418e61b9e1bc8b6daa7c1f5d2384b9;Fabio Morgante <fabiom@clemson.edu>;1626798147;"Add check for the length of the mixture
+"
+pre;stephenslab_mr.mash.alpha;c31422bce5e9effc443eefff9c30714c535b4ffc;Fabio Morgante <fabiom@clemson.edu>;1633706900;"Handle the case of only the null component being left
+"
+pre;stephenslab_mr.mash.alpha;28187a1201a8802c855a09e3e3fad24881cd52a6;Fabio Morgante <fabiom@clemson.edu>;1633960818;"Re-organize code to avoid redundancies
+"
+post;stephenslab_mr.mash.alpha;fc9990fd3d7fa67699a81474c2de6842cc4ba01a;Peter Carbonetto <peter.carbonetto@gmail.com>;1649730551;"Updated installation instructions in README.
+"
+post;stephenslab_mr.mash.alpha;6ba65fcde0d5b5a9d65bb37fbd02dbe877d8c470;Peter Carbonetto <peter.carbonetto@gmail.com>;1649731096;"Commented out compute_cov_flash since it doesn't work with the current version of flashier.
+"
+post;stephenslab_mr.mash.alpha;3c9f7b9e869a7f873760dfdcad4db29b7f3eda8c;Peter Carbonetto <peter.carbonetto@gmail.com>;1649731240;"Created pkgdown site without examples.
+"
+post;stephenslab_mr.mash.alpha;d94b29e5e1b81655711098ffbe39b4debae5a06b;Peter Carbonetto <peter.carbonetto@gmail.com>;1649731796;"Added some missing imports and added ... to coef and predict.
+"
+post;stephenslab_mr.mash.alpha;3ea9cb3c1ec3b5b62a4bfa562deeaf7bd64e1a8f;Peter Carbonetto <peter.carbonetto@gmail.com>;1649733860;"Fixed some warnings and notes generated by R CMD check.
+"
+post;stephenslab_mr.mash.alpha;a1dc386361bc500c4979a8fa61b99e132c3230a2;Peter Carbonetto <peter.carbonetto@gmail.com>;1649780634;"Updated code in compute_cov_flash for latest version of flashier (thanks to Jason).
+"
+post;stephenslab_mr.mash.alpha;68e63711ba822fb6eeb7edf21f87c49fb36b3ef3;Peter Carbonetto <peter.carbonetto@gmail.com>;1649781022;"Fixed flashier imports.
+"
+post;stephenslab_mr.mash.alpha;12d9efb1068825fc011b5f60cfdea7d68121955b;Peter Carbonetto <peter.carbonetto@gmail.com>;1649883429;"Added import for cov2cor.
+"
+post;stephenslab_mr.mash.alpha;9affcaa1cfe89c971d55b60413a554cd6120edb8;Peter Carbonetto <peter.carbonetto@gmail.com>;1649950312;"Fixed mr.mash example.
+"
+post;stephenslab_mr.mash.alpha;75571e9198b698707ea6733982c31e744cc7018f;Peter Carbonetto <peter.carbonetto@gmail.com>;1649964523;"Rebuilt pkgdown site.
+"
+pre;sixin-zh_kymatio_wph;e45dd2e0e44e0fbfbf710784c14650140350dad0;Sixin <ens>;1601382847;"modify final loss in lbfgs2
+"
+pre;sixin-zh_kymatio_wph;59da6e49ebb420e34b71c3db7450322fc3bd2c62;Sixin <ens>;1601391135;"gain one more digit
+"
+pre;sixin-zh_kymatio_wph;7bec64a447836fb63c4560fb6f059b8e12df4eff;Sixin <ens>;1601403810;"fix .sum() in the loss of demo
+"
+pre;sixin-zh_kymatio_wph;f64344575bb83ccd8ba1adf9b942e792c5bc4b78;Sixin <me at home>;1612985070;"RM pp files
+"
+pre;sixin-zh_kymatio_wph;27304267fd708572eda4b5d477740cd5643d703b;Sixin <sixin@fr>;1614622273;"add ACHA models
+"
+pre;sixin-zh_kymatio_wph;237c0d2009766cf83b2145420a14d3c6e90dc983;Sixin <sixin@fr>;1624909194;"add limit of pytorch version
+"
+pre;sixin-zh_kymatio_wph;bd52086f5ca0cbb1d413d89e16de49439347658a;sixin-zh <zsx@cs.nyu.edu>;1648626206;Update README.md
+pre;sixin-zh_kymatio_wph;f551142f140cb9395b66afe5247840649101b729;sixin-zh <zsx@cs.nyu.edu>;1648626234;Update README.md
+pre;sixin-zh_kymatio_wph;4267d18b6ecdfba16fd0890fe0e840c31a8834a8;sixin-zh <zsx@cs.nyu.edu>;1648626329;Update README.md
+pre;sixin-zh_kymatio_wph;055e70623d8a522680f2ee2aaf6291318ee071a9;sixin-zh <zsx@cs.nyu.edu>;1648626503;Update README.md
+post;sixin-zh_kymatio_wph;a01b1ab958b1a259f14a42793ae42a11b20ae072;Sixin Zhang (aniti) <sixin.zhang@irit.fr>;1729859666;"add data
+"
+post;sixin-zh_kymatio_wph;d0d861a2471564b7fb3b9ed3882a8386d2b789ca;Sixin Zhang (aniti) <sixin.zhang@irit.fr>;1744295831;"modify readme
+"
