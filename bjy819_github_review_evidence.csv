@@ -1,0 +1,368 @@
+Project;Sample;commit_sha1;author;committer_time;message;Theme;URL
+mobvoi_wenet;recent;d17059667d6afe0680d19b3a4948ab825ef25105;Tai An;2026-09-07T07:21:08Z;"fix(examples): restore the vkw KWS script to a runnable state (#2821)
+
+* fix(examples): restore the vkw KWS script to a runnable state
+
+Signed-off-by: Anai-Guo <antai12232931@outlook.com>
+
+* style: apply isort to the touched import block
+
+Signed-off-by: Anai-Guo <antai12232931@outlook.com>
+
+---------
+
+Signed-off-by: Anai-Guo <antai12232931@outlook.com>";Bug fixes;https://github.com/wenet-e2e/wenet/commit/d17059667d6afe0680d19b3a4948ab825ef25105
+mobvoi_wenet;recent;3273677c5efb9b49c7db2ac47ad7383d213db7e6;Tai An;2026-09-05T07:22:47Z;"fix(gigaspeech): repair the two skip warnings in extract_meta.py (#2820)
+
+Both messages are implicitly concatenated string fragments and both are malformed:
+
+- the second fragment of the `except Warning` message has no f prefix, so it
+  prints the literal {long_audio_path} instead of the file that was skipped;
+- neither first fragment ends with a space, so the two warnings render as
+  ""maybeAssertionError"" and ""maybe theerror path"".
+
+Signed-off-by: Tai An <antai12232931@outlook.com>";Bug fixes;https://github.com/wenet-e2e/wenet/commit/3273677c5efb9b49c7db2ac47ad7383d213db7e6
+mobvoi_wenet;recent;b234f0600808606e11cb3d853ff3892f41266269;moduvoice;2026-09-03T09:47:01Z;"docs: add Tesla T4/Turing hardware notes (device, dtype, use_sdpa) (#2818)
+
+* docs: add Tesla T4/Turing hardware notes (device, dtype, use_sdpa)
+
+Document behavior measured on a real Tesla T4: GPU is not the default
+(--device defaults to 'cpu' with no warning), the pip-installed CLI has
+no dtype flag (unlike wenet/bin/recognize.py), bf16 casts run ~47%
+slower than fp32 on Turing-class GPUs, enabling the unused-by-default
+use_sdpa toggle recovers most of that slowdown (7-29% faster, same
+checkpoint, identical output), and int8 dynamic quantization is
+CPU-only. Also note the unpinned torch>=1.13.0 dependency can pull a
+torch build newer than an older driver supports, silently falling
+back to CPU.
+
+No code changes.
+
+* docs: fix quantize_dynamic misattribution (torch vs onnxruntime API)";Documentation updates;https://github.com/wenet-e2e/wenet/commit/b234f0600808606e11cb3d853ff3892f41266269
+mobvoi_wenet;recent;8314c8ec95a81c9204d24dbc5470a387d8a2cc94;Tai An;2026-09-03T09:46:04Z;"fix(tools): call init_model with (args, configs) in latency_metrics.py (#2819)
+
+* fix(tools): call init_model with (args, configs) in latency_metrics.py
+
+tools/latency_metrics.py calls `init_model(conf)`, but init_model's signature is
+`init_model(args, configs)` and it returns the `(model, configs)` pair. The script
+therefore dies with a TypeError before it can load a checkpoint.
+
+Match the 13 other call sites in the tree (wenet/bin/*.py, wenet/cli/model.py,
+tools/onnx2horizonbin.py): pass `args` alongside the YAML config and unpack the
+returned tuple, so `conf` also picks up init_model's post-processing before it is
+read for `dataset_conf` further down.
+
+* style(tools): apply isort to latency_metrics.py
+
+The lint workflow runs `pre-commit run --files <changed>`, so touching this file
+surfaces a pre-existing isort violation in its import block. This is the verbatim
+output of the pinned hook (isort 5.12.0, repo defaults) -- no hand edits.";Bug fixes;https://github.com/wenet-e2e/wenet/commit/8314c8ec95a81c9204d24dbc5470a387d8a2cc94
+mobvoi_wenet;recent;a54b90bc768679bd4217e4c7765c0671fbfb3a7a;doubleking;2026-06-15T04:49:48Z;"rename: fix typo Embedinig -> Embedding in subsampling (#2810)
+
+Co-authored-by: lipeiqing <lipeiqing@pachiratech.com>";Bug fixes;https://github.com/wenet-e2e/wenet/commit/a54b90bc768679bd4217e4c7765c0671fbfb3a7a
+mobvoi_wenet;recent;51b577282dd62a84596fce381aab930f9f62b547;SanMse;2026-05-11T12:02:49Z;"Add AISHELL recipe for SenseVoice-small training (#2813)
+
+* Add AISHELL recipe for SenseVoice-small training
+
+* Fix isort import order";Feature development;https://github.com/wenet-e2e/wenet/commit/51b577282dd62a84596fce381aab930f9f62b547
+mobvoi_wenet;recent;015469960db73eb19c49a48c020d5ac9db69bae5;Chengdong Liang;2025-12-19T02:17:51Z;[cli] support automatic download of sensevoice-small (#2802);Feature development;https://github.com/wenet-e2e/wenet/commit/015469960db73eb19c49a48c020d5ac9db69bae5
+mobvoi_wenet;recent;02d1f361d96a5d068669f1d4e62aa631b870b7ea;Dinghao Zhou;2025-12-18T12:01:44Z;"[sensevoice] support sensevoice small arch (#2607)
+
+* [sensevoice] support sensevoice small arch
+
+* support pure sentencepice tokenizer
+
+* convert script works
+
+* init model works
+
+* [model] mv sensevoice to models
+
+* fix lint
+
+* fix unit_test
+
+* [sensevoice] fix decode
+
+---------
+
+Co-authored-by: cdliang11 <1404056823@qq.com>";Feature development;https://github.com/wenet-e2e/wenet/commit/02d1f361d96a5d068669f1d4e62aa631b870b7ea
+mobvoi_wenet;recent;fdd42896c6999f243f5ca34b6a80e6eb5c84fe5a;Dinghao Zhou;2025-12-04T13:02:02Z;"[firered] fix after_nrom (#2800)
+
+model does not use `after_nrom`. Without this line, training will result in an error, indicating that `find_unused_parameters=True` is required.";Bug fixes;https://github.com/wenet-e2e/wenet/commit/fdd42896c6999f243f5ca34b6a80e6eb5c84fe5a
+mobvoi_wenet;recent;115079f39d0c3967f6df6d3371f7fbba8e8e4151;Binbin Zhang;2025-12-03T03:40:56Z;[fix] fix web runtime, rebase (#2798);Bug fixes;https://github.com/wenet-e2e/wenet/commit/115079f39d0c3967f6df6d3371f7fbba8e8e4151
+mobvoi_wenet;status_2025-09-30;8423e175e4feffa017948a59084eba707f862973;Binbin Zhang;2025-09-10T09:33:43Z;[cli] add whisper family models (#2783);;https://github.com/wenet-e2e/wenet/commit/8423e175e4feffa017948a59084eba707f862973
+pbs-assess_gfsynopsis;recent;499e0cf2a06e3381e920297b3d60858e12b52448;Sean Anderson;2026-09-19T23:19:56Z;Web tweaks;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/499e0cf2a06e3381e920297b3d60858e12b52448
+pbs-assess_gfsynopsis;recent;01baebf4a7a466840575841ef7c6153e2d1ab56b;Sean Anderson;2026-09-19T23:19:36Z;Update 01-introduction.Rmd;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/01baebf4a7a466840575841ef7c6153e2d1ab56b
+pbs-assess_gfsynopsis;recent;bb25a6578d674c0a6a2d902a09a7f2b3d13b2d53;Sean Anderson;2026-09-18T22:49:05Z;web and typos in intro;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/bb25a6578d674c0a6a2d902a09a7f2b3d13b2d53
+pbs-assess_gfsynopsis;recent;4399ad9835dc67e8d433c280a56343304930d97c;Sean Anderson;2026-09-17T18:35:13Z;Update species-page-data.R;Other;https://github.com/pbs-assess/gfsynopsis/commit/4399ad9835dc67e8d433c280a56343304930d97c
+pbs-assess_gfsynopsis;recent;326e8fed568c71747c22de40fa580024d7af5edd;Sean Anderson;2026-09-17T18:26:06Z;Update salmon notes to fit;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/326e8fed568c71747c22de40fa580024d7af5edd
+pbs-assess_gfsynopsis;recent;ca76b84b2f86e3cb59f0c3b48908e1c094658c87;Sean Anderson;2026-09-17T17:54:04Z;Fix notes float;Bug fixes;https://github.com/pbs-assess/gfsynopsis/commit/ca76b84b2f86e3cb59f0c3b48908e1c094658c87
+pbs-assess_gfsynopsis;recent;020423570a1ad36f679f065c25b55c81979ec925;Sean Anderson;2026-09-16T23:57:09Z;Update _bookdown.yml;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/020423570a1ad36f679f065c25b55c81979ec925
+pbs-assess_gfsynopsis;recent;de181dbcf096e82191769ef3687892cf47a1b16a;Sean Anderson;2026-09-16T23:56:10Z;Make notes boxes with yellow background;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/de181dbcf096e82191769ef3687892cf47a1b16a
+pbs-assess_gfsynopsis;recent;1ce1af81690e7387de378e8a52f1c70bba3b5d27;Sean Anderson;2026-09-16T17:55:28Z;Adjust touch behaviour on scroll for web;Bug fixes;https://github.com/pbs-assess/gfsynopsis/commit/1ce1af81690e7387de378e8a52f1c70bba3b5d27
+pbs-assess_gfsynopsis;recent;a64b6142d1fb069e3b7d488c4e98b076a899b239;Sean Anderson;2026-09-15T20:46:34Z;Web updates;Documentation updates;https://github.com/pbs-assess/gfsynopsis/commit/a64b6142d1fb069e3b7d488c4e98b076a899b239
+pbs-assess_gfsynopsis;status_2025-09-30;c15bb34b8e77c881884dbba201b577ae1cf15d93;Sean Anderson;2025-09-29T18:44:21Z;DOI and other fixes in main reports;;https://github.com/pbs-assess/gfsynopsis/commit/c15bb34b8e77c881884dbba201b577ae1cf15d93
+pmlmodelling_ersem;recent;6ae048eb99f04c493c701f8ddcdb301fe22f0c5c;Yuri Artioli;2026-08-18T13:51:19Z;"Merge pull request #183 from pmlmodelling/182-losing-total-alkalinity-in-ersem
+
+Add total alkalinity response to benthic-pelagic exchange of nutrients";Bug fixes;https://github.com/pmlmodelling/ersem/commit/6ae048eb99f04c493c701f8ddcdb301fe22f0c5c
+pmlmodelling_ersem;recent;3f61187aca7a951599f326878ab9bccaa296477f;Michael Wathen;2026-08-18T13:04:58Z;Updating expected results;Other;https://github.com/pmlmodelling/ersem/commit/3f61187aca7a951599f326878ab9bccaa296477f
+pmlmodelling_ersem;recent;a39b1152e01bc7c134ecd17c09d463bf16d80ad0;Yuri Artioli;2026-08-11T16:09:11Z;addedd comment on new parameters;Documentation updates;https://github.com/pmlmodelling/ersem/commit/a39b1152e01bc7c134ecd17c09d463bf16d80ad0
+pmlmodelling_ersem;recent;1f24dd5827618653b54d65e015c581bfae5e454f;Helen Powley;2026-08-11T15:31:04Z;Fix bug in transferring code;Bug fixes;https://github.com/pmlmodelling/ersem/commit/1f24dd5827618653b54d65e015c581bfae5e454f
+pmlmodelling_ersem;recent;eea8e695270ea98d6b322bf4f4517565f6fb4b50;Helen Powley;2026-08-11T15:22:03Z;Add total alkalinity response to benthic-pelagic exchange of nutrients;Feature development;https://github.com/pmlmodelling/ersem/commit/eea8e695270ea98d6b322bf4f4517565f6fb4b50
+pmlmodelling_ersem;recent;517927399fec5333c130505d76aaceed7ffd5537;Gennadi Lessin;2026-07-29T12:34:19Z;fixed typos and spellings (#180);Documentation updates;https://github.com/pmlmodelling/ersem/commit/517927399fec5333c130505d76aaceed7ffd5537
+pmlmodelling_ersem;recent;9e3ba27aad95148e0e5c2678a0d1484f4d4226f7;Gennadi Lessin;2026-07-27T15:00:23Z;"fixed freox and fanox diags, added units, fixed reference (#178)
+
+* fixed freox and fanox diags, added units, fixed reference
+
+* added long names for freox and fanox";Bug fixes;https://github.com/pmlmodelling/ersem/commit/9e3ba27aad95148e0e5c2678a0d1484f4d4226f7
+pmlmodelling_ersem;recent;c97af032f5e8e05a2702942f9606611035241705;Helen Powley;2026-07-27T12:45:03Z;"Remove unused variable and parameter call for iswBlimX (#177)
+
+* Remove unused variable and parameter call for iswBlimX
+
+Removed unused variable 'iswBlimX' and its parameter call.
+
+* Remove iswBlim from yaml files";Other;https://github.com/pmlmodelling/ersem/commit/c97af032f5e8e05a2702942f9606611035241705
+pmlmodelling_ersem;recent;1bd8c88328739d4b4c3e2f36e536f46ebabf4853;Michael Wathen;2026-06-30T14:38:59Z;Adding tests for yaml files in testcases (#172);Other;https://github.com/pmlmodelling/ersem/commit/1bd8c88328739d4b4c3e2f36e536f46ebabf4853
+pmlmodelling_ersem;recent;8ee235834f81fc24835dea240ab3b22e3f0f76a3;Gennadi Lessin;2026-05-19T15:39:37Z;"added configuration with nitrous oxide (#166)
+
+* added configuration with nitrous oxide
+
+* rearranged order of modules
+
+* added Wanninkhof 2014 option for nitrous oxide
+
+* added quartic term to W2014 Sc calculation
+
+* added temperature range warnings for N2O Sc number";Feature development;https://github.com/pmlmodelling/ersem/commit/8ee235834f81fc24835dea240ab3b22e3f0f76a3
+pmlmodelling_ersem;status_2025-09-30;55e0db95cd51a13641c7aee3fd2edbb4eba38383;Rebecca Millington;2025-08-11T13:36:07Z;removing benthic predators from combined fabm.yaml;;https://github.com/pmlmodelling/ersem/commit/55e0db95cd51a13641c7aee3fd2edbb4eba38383
+vearch_vearch;recent;bae78b189ff0ab1d8ac659c6acaeeb5f630db33f;zcdb;2026-07-27T05:29:53Z;"feat(index): support by-name dynamic add/remove of scalar and vector indexes (#886)
+
+Add and remove scalar and vector indexes on an existing space by field
+name at runtime, without recreating the space.
+
+Features:
+* Dispatch index add/remove as an explicit INDEXCHANGE raft command so the
+  mutation is replicated and applied deterministically across replicas.
+* Per-index build state (BUILDING -> READY) with publish-then-backfill and
+  crash recovery, reported for both scalar and vector indexes via ListIndexes.
+* Reject duplicate composite indexes on the same ordered field list.
+
+Correctness:
+* Build a dynamically-added index under lock, blocking writes (not reads);
+  scan the closed interval so the in-flight boundary doc is not missed.
+* Replay/rebuild to clear stale backfill keys, so a value changed during
+  backfill is not lost before the index reaches READY.
+* Drop residual keys before backfilling a re-added scalar index, and delete
+  a removed vector index's dumped files, to avoid stale data across restart.
+* Keep other vector indexes live when removing one; keep the BUILDING marker
+  when InsertIndex fails.
+* Make max_docid_ atomic to fix the backfill snapshot data race.
+* Compensate partial index-change fan-out failures; reject index changes
+  sent via space update instead of silently dropping them.
+* Use AdvancePrefix for the DropAll DeleteRange upper bound.";Feature development;https://github.com/vearch/vearch/commit/bae78b189ff0ab1d8ac659c6acaeeb5f630db33f
+vearch_vearch;recent;6ec698ab14ed1ea9eacffba43d6c27cb4e5758fc;zcdb;2026-07-21T06:33:39Z;"perf: batch field reads via MultiGet and batch is_killed() checks in Response::Serialize
+
+* refactor: split Response::Serialize into focused helpers
+* refactor: extract ToStringFieldKey helper for string-field storage keys
+* perf: batch field reads via MultiGet and batch is_killed() checks in Response::Serialize
+* fix: drop the whole doc when any scalar field read fails
+* test: add unit tests for ToStringFieldKey and MultiGetByKeys";Other;https://github.com/vearch/vearch/commit/6ec698ab14ed1ea9eacffba43d6c27cb4e5758fc
+vearch_vearch;recent;f980caf91253ffaaacf9084309c60b63f6e09c4a;An;2026-07-20T16:03:27Z;fix: replace busy-wait with blocking select in router search (#884);Bug fixes;https://github.com/vearch/vearch/commit/f980caf91253ffaaacf9084309c60b63f6e09c4a
+vearch_vearch;recent;287af30d72863dbe344eaf0c24d0a204f3c9fd10;An;2026-07-19T15:20:31Z;fix: replace buggy quickSort with sort.Slice in search result merge (#883);Bug fixes;https://github.com/vearch/vearch/commit/287af30d72863dbe344eaf0c24d0a204f3c9fd10
+vearch_vearch;recent;2776ba85ec029ba8b589a42fa9e205a0eb086892;zcdb;2026-07-18T08:20:41Z;"perf(vector index): reduce is_killed() checks on search hot path... (#882)
+
+* perf(ivfrabitq): reduce is_killed() checks on search hot path
+* perf(binaryivf): reduce is_killed() checks on search hot path
+* perf(ivfflat): reduce is_killed() checks on search hot path
+* perf(ivfpq): reduce is_killed() checks on search hot path
+* perf(hnsw): reduce is_killed() checks on search hot path
+* test(engine): add unit tests for RequestContext kill-check";Other;https://github.com/vearch/vearch/commit/2776ba85ec029ba8b589a42fa9e205a0eb086892
+vearch_vearch;recent;f3a3b7e5a7bf3e6a9e584cd42636193cc90c49ab;zcdb;2026-07-17T10:56:56Z;"perf: skip alias reload+retry on cache miss (#881)
+
+* perf: skip alias reload+retry on cache miss
+AliasByCache ran on every search via getSpace. aliasCache is kept as a
+full set by initAlias (startup bulk load) + the alias watcher (etcd
+sync), so a miss unambiguously means the name is not an alias. The old
+path still called reloadAliasCache (a no-op for sync=false) then spun
+retryNum times with time.Sleep(retrySleepTime) before giving up.
+
+For a normal (non-alias) space name — the common case — that loop is
+pure waste, and under a busy router the sleeps get stretched by the
+scheduler to ~3ms per request (observed as getSpace in trace logs).
+Return immediately on miss; drop the now-unused reloadAliasCache.
+
+* test: fix bitmap thread-safety flake and harden search helper
+
+- test_module_filter_bitmap_index_thread_safety: reuse one keep-alive
+  requests.Session per reader/deleter thread. The old per-iteration
+  requests.post opened ~20k short-lived connections; once the AliasByCache
+  throttle was removed (7afd12bd) the writer/reader/deleter threads flood
+  the router accept backlog and trip ConnectionReset (104).
+
+- search() helper (utils): parse the response once and guard ""data""/
+  ""documents"" presence before indexing, asserting with the status code and
+  body. It previously indexed rs.json()[""data""] before checking the key,
+  so an error response (no ""data"") raised a misleading KeyError: 'data'.
+
+- CI_index.yml: exclude the slow flat_ip[RocksDB] case on arm64 (larger
+  glove25 dataset on the disk store), matching the existing ivfpq/ivfrabitq
+  per-platform exclusions.";Other;https://github.com/vearch/vearch/commit/f3a3b7e5a7bf3e6a9e584cd42636193cc90c49ab
+vearch_vearch;recent;68306282654f7de1b69aaba827ee45941898c377;zcdb;2026-07-08T12:24:51Z;"feat: SCAN fallback for composite scalar index (#880)
+
+Adds a full-iteration SCAN strategy that the composite scalar index
+can fall back to when the query filter set cannot form a valid
+key prefix. Iterates every entry under the composite header, decodes
+each field value from the key, and applies the filters per entry.
+
+To avoid actually scanning the whole header when partial information
+is usable, the scan narrows itself opportunistically:
+  - leading-Equal seek prefix: consecutive AND filters that pin a
+    single value (numeric Equal, string IN with one item, single
+    positive single-value STRINGARRAY filter) become a Seek prefix
+  - string IN with up to 16 values: expanded into per-value
+    sub-scans
+  - numeric Range: single sub-scan starting at the encoded lower
+    bound with upper-bound short-circuit during iteration
+  - everything else falls back to scanning under the equal_prefix
+    (or the bare header if no leading Equal exists)
+
+STRINGARRAY presence forces a per-docid aggregation pass so that
+NOT IN / IN against array fields see the full element set rather
+than evaluating each cartesian-expanded entry independently.
+
+Other pieces folded into this change:
+  - route single-filter composite SCAN through the existing
+    Search dispatch
+  - split shared scalar-index types into scalar_index_types.h to
+    break an include cycle around FilterInfo
+  - regression test coverage in test_module_filter_composite_index.py";Feature development;https://github.com/vearch/vearch/commit/68306282654f7de1b69aaba827ee45941898c377
+vearch_vearch;recent;0228cb7226a1fa31a4ed21f570520c4f904e842f;zcdb;2026-07-07T02:37:49Z;"feat(flat): support RocksDB disk store and optimize FLAT search (#879)
+
+FLAT index now supports any RawVector backend (Memory / MemoryBuffer /
+RocksDB), removing the prior Memory-only restriction in Init.
+
+Search-path optimizations:
+- Chunked batched Gets() in the per-vid scan, replacing per-vid Get
+  calls; reduces RocksDB round-trips on disk-backed FLAT.
+- Configurable fetch_batch_size (1..1024, default 64) and
+  disable_filter_first switch via retrieval params.
+- Filter-first gating: when a scalar candidate bitmap is available,
+  clip it to the partition VID range via Roaring SIMD AND, then
+  iterate the bitmap directly instead of scanning all vectors. Falls
+  back to the vector-segment-parallel path when n==1 and the candidate
+  cardinality exceeds 1024 so single-query Memory FLAT keeps inner-loop
+  CPU parallelism.
+- Amortized RequestContext::is_killed() check (every 16 chunks).
+
+ScalarIndexResults: add GetCandidateBitmap() + Cardinality() accessors
+so filter-first avoids materializing the candidate set into a vector.
+
+Integration tests: extend test_module_filter / test_module_space /
+test_vector_index_flat and shared utils to cover RocksDB FLAT
+create/search/filter scenarios.";Feature development;https://github.com/vearch/vearch/commit/0228cb7226a1fa31a4ed21f570520c4f904e842f
+vearch_vearch;recent;109fd52720cff16e7970d46de2cb60d97a4da15f;An;2026-06-26T10:36:06Z;"feature: add diskann index support (#878)
+
+Co-authored-by: anpeihang.1 <anpeihang.1@jd.com>";Feature development;https://github.com/vearch/vearch/commit/109fd52720cff16e7970d46de2cb60d97a4da15f
+vearch_vearch;recent;146b302fc13c589e91ef6fcb6465d3f837422227;zcdb;2026-06-15T11:36:33Z;"feat: add thread safety for bitmap index operations (#877)
+
+* perf: use std::move in NotIn and Range result construction
+
+* refactor: remove unused BitmapToResult and fix In() lock scope
+
+* feat: add thread safety for bitmap index operations";Feature development;https://github.com/vearch/vearch/commit/146b302fc13c589e91ef6fcb6465d3f837422227
+vearch_vearch;status_2025-09-30;7bb114436984dfc5574a8a290a7b30a9771cc9c8;zcdb;2025-09-29T04:35:31Z;fix(test): update test case for alias;;https://github.com/vearch/vearch/commit/7bb114436984dfc5574a8a290a7b30a9771cc9c8
+hannorein_rebound;recent;781a3485b1b77094bf75032b77bd9e34398b92a4;Hanno Rein;2026-10-06T12:13:52Z;removed unnecessary check for simulationarchive_filename!=NULL;Other;https://github.com/hannorein/rebound/commit/781a3485b1b77094bf75032b77bd9e34398b92a4
+hannorein_rebound;recent;c34134716cd484ed9cdb9f7d54ef8d859bdf547d;Hanno Rein;2026-10-05T12:56:46Z;Updating version to 5.2.2;Release;https://github.com/hannorein/rebound/commit/c34134716cd484ed9cdb9f7d54ef8d859bdf547d
+hannorein_rebound;recent;b06e3fcd9e50e2d9674f6f859ecd311091dd48b0;Rishit Dagli;2026-10-05T12:52:48Z;keep SIZE_MAX offset_N marker when reading binary fields (#939);Bug fixes;https://github.com/hannorein/rebound/commit/b06e3fcd9e50e2d9674f6f859ecd311091dd48b0
+hannorein_rebound;recent;63704d863fbd4285425712ec2fc59ceda0fd9941;Elle Fleming;2026-10-05T12:00:45Z;Allow `_hb` to be an attribute which is a field (#938);Feature development;https://github.com/hannorein/rebound/commit/63704d863fbd4285425712ec2fc59ceda0fd9941
+hannorein_rebound;recent;25bbef5de04b79fdc3c27191ca4ec7d7a12b0025;Hanno Rein;2026-09-29T18:13:21Z;Updating version to 5.2.1;Release;https://github.com/hannorein/rebound/commit/25bbef5de04b79fdc3c27191ca4ec7d7a12b0025
+hannorein_rebound;recent;5a93ed17a90cd90a0ba87e095621e6dba3daba0a;Hanno Rein;2026-09-25T18:57:54Z;Fixes build on linux arm. Closes #937.;Bug fixes;https://github.com/hannorein/rebound/commit/5a93ed17a90cd90a0ba87e095621e6dba3daba0a
+hannorein_rebound;recent;bedf139fa5dd39877c51a388ba57befbf73b7974;Hanno Rein;2026-09-22T13:36:51Z;more reliable unit tests;Other;https://github.com/hannorein/rebound/commit/bedf139fa5dd39877c51a388ba57befbf73b7974
+hannorein_rebound;recent;a733652e9ef4ab5ff9ac0af7e1c4c7654a25aa87;Hanno Rein;2026-09-22T13:27:33Z;no arm wheels on windows for now.;Release;https://github.com/hannorein/rebound/commit/a733652e9ef4ab5ff9ac0af7e1c4c7654a25aa87
+hannorein_rebound;recent;88b12704d8b52356e5663af3df222ba86ef8167f;Hanno Rein;2026-09-22T13:15:22Z;compile arm on windows wheels;Release;https://github.com/hannorein/rebound/commit/88b12704d8b52356e5663af3df222ba86ef8167f
+hannorein_rebound;recent;02526181e44d2918a83fccda0326c48a46c40946;Hanno Rein;2026-09-22T13:09:50Z;upgrade action-gh-release;Dependency updates;https://github.com/hannorein/rebound/commit/02526181e44d2918a83fccda0326c48a46c40946
+hannorein_rebound;status_2025-09-30;6a4f95b58e71a69fdefd2ca5bd34097daf026655;Hanno Rein;2025-09-30T00:09:34Z;Added REB_COLLISION_RESOLVE_OUTCOME enum.;;https://github.com/hannorein/rebound/commit/6a4f95b58e71a69fdefd2ca5bd34097daf026655
+soedinglab_mmseqs2;recent;564f40d8857f4eca4e1dfe100c67c155b1933e70;kimmanbo;2026-09-30T04:36:10Z;"Fix platform-specific compilation issues
+
+Include sstream where string streams are used and explicitly mark the file descriptor unused when posix_fadvise is unavailable.";Bug fixes;https://github.com/soedinglab/MMseqs2/commit/564f40d8857f4eca4e1dfe100c67c155b1933e70
+soedinglab_mmseqs2;recent;ef6752990ff520750f62e25c45726b2e7f81acc6;kimmanbo;2026-09-30T04:36:10Z;"Fix full-byte substitution matrix indexing
+
+Allocate and initialize mappings for all unsigned byte values, including 0xFF. Cast sequence and ctype inputs through unsigned char to avoid negative indexes and undefined behavior.";Bug fixes;https://github.com/soedinglab/MMseqs2/commit/ef6752990ff520750f62e25c45726b2e7f81acc6
+soedinglab_mmseqs2;recent;67068e71cd2b607c582ee45b024d98b15d63b6f3;kimmanbo;2026-09-30T04:34:04Z;Remove long-target ungapped alignment regression test;Other;https://github.com/soedinglab/MMseqs2/commit/67068e71cd2b607c582ee45b024d98b15d63b6f3
+soedinglab_mmseqs2;recent;c1cd9f55ce9abc6eefc83bdce930e0729ae3c283;kimmanbo;2026-09-30T04:34:04Z;Fix hit identity during long-target ungapped rescoring;Bug fixes;https://github.com/soedinglab/MMseqs2/commit/c1cd9f55ce9abc6eefc83bdce930e0729ae3c283
+soedinglab_mmseqs2;recent;fb293d618cd458f80976369faff64eafcd6cfc43;kimmanbo;2026-09-30T04:32:29Z;[fix] fastSeqIdToBuffer function edge case error fixed.;Bug fixes;https://github.com/soedinglab/MMseqs2/commit/fb293d618cd458f80976369faff64eafcd6cfc43
+soedinglab_mmseqs2;recent;f2b68cedd2e6d284a901a7250367c9715c2690a3;kimmanbo;2026-09-30T04:13:44Z;Fix E-value truncation in iterative profile search;Bug fixes;https://github.com/soedinglab/MMseqs2/commit/f2b68cedd2e6d284a901a7250367c9715c2690a3
+soedinglab_mmseqs2;recent;3b6aa9c87b347a1f49863d43b0fba2e80a169f4b;Gyuri Kim;2026-09-29T05:52:48Z;"Merge pull request #1134 from Gyuuul2/SW
+
+activated int32_t align, fixed scoreidentical and set alinger size by max length of q,tdb";Bug fixes;https://github.com/soedinglab/MMseqs2/commit/3b6aa9c87b347a1f49863d43b0fba2e80a169f4b
+soedinglab_mmseqs2;recent;8d3351e306aac56dfa5b3cf4322b62884a9a6bf6;Gyuri Kim;2026-09-29T04:44:54Z;Revert aligner allocation size to par.maxSeqLen;Bug fixes;https://github.com/soedinglab/MMseqs2/commit/8d3351e306aac56dfa5b3cf4322b62884a9a6bf6
+soedinglab_mmseqs2;recent;af8ff47b57759c68ec11f34d704859469de9374f;Gyuri Kim;2026-09-29T04:44:54Z;Resize the Smith-Waterman buffers when needed and allocate the block trace only when used;Other;https://github.com/soedinglab/MMseqs2/commit/af8ff47b57759c68ec11f34d704859469de9374f
+soedinglab_mmseqs2;recent;a1fba22b32db7e324d3ec2ad8775d7f9d570b7e6;Gyuri Kim;2026-09-29T04:44:54Z;Fix division by zero in proteome cluster count ratio;Bug fixes;https://github.com/soedinglab/MMseqs2/commit/a1fba22b32db7e324d3ec2ad8775d7f9d570b7e6
+soedinglab_mmseqs2;status_2025-09-30;43ddddb3fddaaf6d470bc0babfbd02694af86050;Milot Mirdita;2025-09-30T07:49:46Z;Don't expose block aligner in SW header;;https://github.com/soedinglab/MMseqs2/commit/43ddddb3fddaaf6d470bc0babfbd02694af86050
+hpddm_hpddm;recent;3c5c250202431aab92941f68ebc02e4742ad0c9a;Pierre Jolivet;2026-10-08T15:26:50Z;"Updated PCHPDDM file.
+
+[runs-on: self-hosted]";Other;https://github.com/hpddm/hpddm/commit/3c5c250202431aab92941f68ebc02e4742ad0c9a
+hpddm_hpddm;recent;0bb65382e8912e2602b5bab3d3dd286fdff24987;Pierre Jolivet;2026-10-08T15:26:50Z;Improves performance of coarse operator assemblies.;Other;https://github.com/hpddm/hpddm/commit/0bb65382e8912e2602b5bab3d3dd286fdff24987
+hpddm_hpddm;recent;5f77928e1d00abaeaaa13bd59024900b1dc4766a;Pierre Jolivet;2026-10-08T15:26:50Z;Fixes a deadlock when using -pc_hpddm_coarse_mat_mumps_omp_threads;Bug fixes;https://github.com/hpddm/hpddm/commit/5f77928e1d00abaeaaa13bd59024900b1dc4766a
+hpddm_hpddm;recent;8ef48023c0a23249c48289608c623519464edaca;Pierre Jolivet;2026-10-08T15:26:50Z;Adds support for -pc_hpddm_coarse_mat_spd;Feature development;https://github.com/hpddm/hpddm/commit/8ef48023c0a23249c48289608c623519464edaca
+hpddm_hpddm;recent;913b4a9b9b6f7bc18f59437a2516e0e755091599;Pierre Jolivet;2026-09-26T19:46:30Z;"Enables a 160-column limit for clang-format.
+
+Funded-by: France 2030 NumPEx Exa-MA (ANR-22-EXNU-0002) project
+
+[runs-on: self-hosted]";Other;https://github.com/hpddm/hpddm/commit/913b4a9b9b6f7bc18f59437a2516e0e755091599
+hpddm_hpddm;recent;c9f0990af4273f0b6c4891b55c19c0eb9194f3ce;Pierre Jolivet;2026-09-26T19:46:30Z;Increases coverage.;Other;https://github.com/hpddm/hpddm/commit/c9f0990af4273f0b6c4891b55c19c0eb9194f3ce
+hpddm_hpddm;recent;e79b53cff14bc557e6b0ece3ca868f2cafb31dfd;Pierre Jolivet;2026-09-26T19:46:30Z;Enables clang-tidy.;Other;https://github.com/hpddm/hpddm/commit/e79b53cff14bc557e6b0ece3ca868f2cafb31dfd
+hpddm_hpddm;recent;f3682ad32a4fb2472a4b826c5c6499cf74aa0cb1;Pierre Jolivet;2026-09-23T18:53:46Z;"GitHub Actions ubuntu-26.04 runner.
+
+[runs-on: self-hosted]";Dependency updates;https://github.com/hpddm/hpddm/commit/f3682ad32a4fb2472a4b826c5c6499cf74aa0cb1
+hpddm_hpddm;recent;f00b3909f9b8ce47b02c9172db5d8f5bab6b59d8;Pierre Jolivet;2026-09-23T18:53:46Z;Switches to a Git clone if cURL is failing.;Bug fixes;https://github.com/hpddm/hpddm/commit/f00b3909f9b8ce47b02c9172db5d8f5bab6b59d8
+hpddm_hpddm;recent;1be12b938acd2953bad2378d9f2b4f0c2a50abe6;Pierre Jolivet;2026-09-23T18:53:46Z;Uses UBUNTU_RUNNER to switch between releases.;Other;https://github.com/hpddm/hpddm/commit/1be12b938acd2953bad2378d9f2b4f0c2a50abe6
+hpddm_hpddm;status_2025-09-30;3c9c29e4abb0b471c1be3c7d141c3601c6c1b3de;Pierre Jolivet;2025-09-27T06:46:07Z;"Updated PCHPDDM file.
+
+[runs-on: self-hosted]";;https://github.com/hpddm/hpddm/commit/3c9c29e4abb0b471c1be3c7d141c3601c6c1b3de
+stephenslab_mr.mash.alpha;recent;be538c3856d12a127104058708ba58e0af2da670;Fabio Morgante;2026-02-16T16:00:01Z;Rename project from 'r-smashr' to 'r-mr.mashr';Other;https://github.com/stephenslab/mr.mashr/commit/be538c3856d12a127104058708ba58e0af2da670
+stephenslab_mr.mash.alpha;recent;74a3222276360b046c3332799f5ed3c8a1b95aae;Peter Carbonetto;2025-12-21T17:53:07Z;"A couple small fixes to the vignette (requested by Konstanze Lauseker
+in an email on Dec 19).";Documentation updates;https://github.com/stephenslab/mr.mashr/commit/74a3222276360b046c3332799f5ed3c8a1b95aae
+stephenslab_mr.mash.alpha;recent;2039cfefb7e10f33c1e2082734edabe053d8226f;Peter Carbonetto;2025-12-12T21:19:05Z;Updated the pkgdown site.;Documentation updates;https://github.com/stephenslab/mr.mashr/commit/2039cfefb7e10f33c1e2082734edabe053d8226f
+stephenslab_mr.mash.alpha;recent;52afef35b9c6a96c33d8e8940de5616145923442;Peter Carbonetto;2025-12-12T21:09:09Z;Removed macos r43 CI env.;Other;https://github.com/stephenslab/mr.mashr/commit/52afef35b9c6a96c33d8e8940de5616145923442
+stephenslab_mr.mash.alpha;recent;cb1955cd1ca1b8b5b662d74a24d11d48657bd985;Peter Carbonetto;2025-12-12T21:08:22Z;Another fix to ci.yml.;Bug fixes;https://github.com/stephenslab/mr.mashr/commit/cb1955cd1ca1b8b5b662d74a24d11d48657bd985
+stephenslab_mr.mash.alpha;recent;31a32633d8cf10e8a6ada252cf23550086be4835;Peter Carbonetto;2025-12-12T21:07:13Z;Renamed package.;Other;https://github.com/stephenslab/mr.mashr/commit/31a32633d8cf10e8a6ada252cf23550086be4835
+stephenslab_mr.mash.alpha;recent;143f5e6930c9ce34eddde3145a7ced159b718730;Peter Carbonetto;2025-12-12T20:53:48Z;Fix to ci.yml.;Bug fixes;https://github.com/stephenslab/mr.mashr/commit/143f5e6930c9ce34eddde3145a7ced159b718730
+stephenslab_mr.mash.alpha;recent;a957e2720dd2ef2c02359e3321988b4f2958213a;Peter Carbonetto;2025-12-12T20:49:56Z;Removed r43 environment from github actions workflow.;Other;https://github.com/stephenslab/mr.mashr/commit/a957e2720dd2ef2c02359e3321988b4f2958213a
+stephenslab_mr.mash.alpha;recent;a77681426f9109a61e4abf223ba8edaa0b1dfb52;Peter Carbonetto;2025-12-10T20:35:55Z;Added DN as a contributor.;Documentation updates;https://github.com/stephenslab/mr.mashr/commit/a77681426f9109a61e4abf223ba8edaa0b1dfb52
+stephenslab_mr.mash.alpha;recent;6cd28167dbfad9ecdcc7c7814232f7b5a4f465c5;Peter Carbonetto;2025-12-09T21:50:59Z;Set nthreads = 1 in examples.;Documentation updates;https://github.com/stephenslab/mr.mashr/commit/6cd28167dbfad9ecdcc7c7814232f7b5a4f465c5
+stephenslab_mr.mash.alpha;status_2025-09-30;7ec4b07c9cb297ec5e2a9df17a0b5021cea61020;Fabio Morgante;2025-02-04T23:57:16Z;Fix typo;;https://github.com/stephenslab/mr.mashr/commit/7ec4b07c9cb297ec5e2a9df17a0b5021cea61020
+gem_oq-engine;recent;d55dce7a74235d4e1fb891617f553161aa7ca163;CB-quakemodel;2026-10-13T17:43:45Z;"Merge pull request #11899 from gem/grid_gmpe_terminology
+
+Fix path adjustment terminology in GridAdjustedGMPE";Documentation updates;https://github.com/gem/oq-engine/commit/d55dce7a74235d4e1fb891617f553161aa7ca163
+gem_oq-engine;recent;3829c876ef2bd539d4c7d0358e94046a3889c3ed;unknown;2026-10-13T17:14:28Z;fix readme;Documentation updates;https://github.com/gem/oq-engine/commit/3829c876ef2bd539d4c7d0358e94046a3889c3ed
+gem_oq-engine;recent;0d74e5e0a5e6356e34cd5a2b7dd4c6bddd2ff678;unknown;2026-10-13T16:55:42Z;fix the hdf5;Bug fixes;https://github.com/gem/oq-engine/commit/0d74e5e0a5e6356e34cd5a2b7dd4c6bddd2ff678
+gem_oq-engine;recent;a756519610c7d1faedb37736b3d478140c7b2ce3;unknown;2026-10-13T16:30:30Z;rename everywhere;Other;https://github.com/gem/oq-engine/commit/a756519610c7d1faedb37736b3d478140c7b2ce3
+gem_oq-engine;recent;2e4dd3d4c4a76f9f6dc80be50e8fe274df4de160;unknown;2026-10-13T16:14:22Z;[ci skip] fix docstring;Documentation updates;https://github.com/gem/oq-engine/commit/2e4dd3d4c4a76f9f6dc80be50e8fe274df4de160
+gem_oq-engine;recent;8330aea312e7d7fe7ba1c87b1375ba4770fd64a4;Paolo Tormene;2026-10-13T15:34:45Z;"Merge pull request #11895 from gem/weeklytest
+
+Fix weekly engine tests action";Bug fixes;https://github.com/gem/oq-engine/commit/8330aea312e7d7fe7ba1c87b1375ba4770fd64a4
+gem_oq-engine;recent;82217c65c67aaa1fc5ac86374d4828e6c6d3de32;Michele Simionato;2026-10-13T14:42:53Z;"Merge pull request #11898 from gem/buffered
+
+event_based: buffer GMF messages sent to the parent";Other;https://github.com/gem/oq-engine/commit/82217c65c67aaa1fc5ac86374d4828e6c6d3de32
+gem_oq-engine;recent;fdff77365d4eb3b9693e37a793fc41e3ea34a284;Paolo Tormene;2026-10-13T14:31:53Z;Add explicit affine-2.4.0 to py 3.12 and 3.13 as it is for 3.11;Dependency updates;https://github.com/gem/oq-engine/commit/fdff77365d4eb3b9693e37a793fc41e3ea34a284
+gem_oq-engine;recent;5e841f9b6ca2cfc40c67059f28ce4b942ae8d1e3;Michele Simionato;2026-10-13T13:34:27Z;"event_based: buffer GMF messages sent to the parent
+
+Merge the batches yielded by _event_based into messages of at least
+GMF_MSG_ROWS rows, reducing the number of messages the parent has to
+receive and store (254k -> 4k messages on the transition sites test,
+event_based phase 536 s -> 140 s).";Other;https://github.com/gem/oq-engine/commit/5e841f9b6ca2cfc40c67059f28ce4b942ae8d1e3
+gem_oq-engine;recent;de82ab70733d17336b6e657b5ffa31afb23317ff;Paolo Tormene;2026-10-13T12:27:55Z;Do not install rtgmpy outside the aelo scope;Dependency updates;https://github.com/gem/oq-engine/commit/de82ab70733d17336b6e657b5ffa31afb23317ff
+gem_oq-engine;status_2025-09-30;dc9a93a03959cb60a02ad2470e7d9e157bfdf531;Paolo Tormene;2025-09-30T15:43:38Z;"Store site_class in oqparam; rearrange header of outputs pages; improve email notification, including the site class";;https://github.com/gem/oq-engine/commit/dc9a93a03959cb60a02ad2470e7d9e157bfdf531
+sixin-zh_kymatio_wph;recent;d0d861a2471564b7fb3b9ed3882a8386d2b789ca;Sixin Zhang (aniti);2025-04-10T14:37:11Z;modify readme;Documentation updates;https://github.com/sixin-zh/kymatio_wph/commit/d0d861a2471564b7fb3b9ed3882a8386d2b789ca
+sixin-zh_kymatio_wph;recent;a01b1ab958b1a259f14a42793ae42a11b20ae072;Sixin Zhang (aniti);2024-10-25T12:34:26Z;add data;Other;https://github.com/sixin-zh/kymatio_wph/commit/a01b1ab958b1a259f14a42793ae42a11b20ae072
+sixin-zh_kymatio_wph;recent;055e70623d8a522680f2ee2aaf6291318ee071a9;sixin-zh;2022-03-30T07:48:23Z;Update README.md;Documentation updates;https://github.com/sixin-zh/kymatio_wph/commit/055e70623d8a522680f2ee2aaf6291318ee071a9
+sixin-zh_kymatio_wph;recent;4267d18b6ecdfba16fd0890fe0e840c31a8834a8;sixin-zh;2022-03-30T07:45:29Z;Update README.md;Documentation updates;https://github.com/sixin-zh/kymatio_wph/commit/4267d18b6ecdfba16fd0890fe0e840c31a8834a8
+sixin-zh_kymatio_wph;recent;f551142f140cb9395b66afe5247840649101b729;sixin-zh;2022-03-30T07:43:54Z;Update README.md;Documentation updates;https://github.com/sixin-zh/kymatio_wph/commit/f551142f140cb9395b66afe5247840649101b729
+sixin-zh_kymatio_wph;recent;bd52086f5ca0cbb1d413d89e16de49439347658a;sixin-zh;2022-03-30T07:43:26Z;Update README.md;Documentation updates;https://github.com/sixin-zh/kymatio_wph/commit/bd52086f5ca0cbb1d413d89e16de49439347658a
+sixin-zh_kymatio_wph;recent;237c0d2009766cf83b2145420a14d3c6e90dc983;Sixin;2021-06-28T19:39:54Z;add limit of pytorch version;Dependency updates;https://github.com/sixin-zh/kymatio_wph/commit/237c0d2009766cf83b2145420a14d3c6e90dc983
+sixin-zh_kymatio_wph;recent;27304267fd708572eda4b5d477740cd5643d703b;Sixin;2021-03-01T18:11:13Z;add ACHA models;Feature development;https://github.com/sixin-zh/kymatio_wph/commit/27304267fd708572eda4b5d477740cd5643d703b
+sixin-zh_kymatio_wph;recent;f64344575bb83ccd8ba1adf9b942e792c5bc4b78;Sixin;2021-02-10T19:24:30Z;RM pp files;Other;https://github.com/sixin-zh/kymatio_wph/commit/f64344575bb83ccd8ba1adf9b942e792c5bc4b78
+sixin-zh_kymatio_wph;recent;7bec64a447836fb63c4560fb6f059b8e12df4eff;Sixin;2020-09-29T18:23:30Z;fix .sum() in the loss of demo;Bug fixes;https://github.com/sixin-zh/kymatio_wph/commit/7bec64a447836fb63c4560fb6f059b8e12df4eff
+sixin-zh_kymatio_wph;status_2025-09-30;d0d861a2471564b7fb3b9ed3882a8386d2b789ca;Sixin Zhang (aniti);2025-04-10T14:37:11Z;modify readme;;https://github.com/sixin-zh/kymatio_wph/commit/d0d861a2471564b7fb3b9ed3882a8386d2b789ca

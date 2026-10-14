@@ -1,3 +1,43 @@
+# bjy819 — MiniProject 2 results
+
+For MiniProject 3, start with [bjy819_project_stats.csv](bjy819_project_stats.csv). Partner: **hawad**. All CSVs below use semicolons.
+
+- **HasRecovered / WhyRecovered:** stats, the project reflections below, and [pre/post commits](bjy819_project_gap_commits.csv).
+- **ActivityPattern:** [monthly plots](graphs/) and [monthly counts](commits_timeseries/).
+- **Currentstatus / RecentThemes:** [saved GitHub evidence](bjy819_github_review_evidence.csv). Filter Sample to `status_2025-09-30` or `recent` for the project.
+- **Code and source data:** [retrieval notebook](bjy819.ipynb), [visualization notebook](bjy819_vis.ipynb), [commit summary](bjy819_project_summary.csv).
+
+## Definitions and limits
+
+HasRecovered is Yes when commits resume after the longest gap, including a limited return. For gem_oq-engine it is No because no gap occurred, not because recovery failed. Currentstatus follows the assignment's April 1–September 30, 2025 window, independently of the 2026 metadata. RecentThemes uses the ten latest default-branch commits captured on October 14, 2026 UTC; per-commit labels and links are saved for review. One primary theme is assigned per commit; ties are alphabetical. Other covers refactoring, performance, tests and general maintenance.
+
+Monthly activity uses WoC author timestamps in UTC, from first through last commit month, with zero months included. The earliest longest gap wins a tie. Only gaps of at least three months count in NumberOfGapsInTimeline. No-gap dates and commits-after-gap are intentionally blank. There are 217,028 retrieved pairs out of 217,072 expected (44 missing), which may affect small gaps. The actual timestamps extend into 2026 despite the original January 2025 coverage note. WoC histories can include branches or imported commits; raw author strings can overcount people. Gap causes are hypotheses unless directly documented.
+
+GitHub stars/forks/latest dates retain the October 8, 2026 observation. The additional review evidence was captured later; its latest dates may differ. Assigned project IDs are retained even where GitHub repositories were renamed.
+
+## Project files
+
+| Project | Plot | Reflection |
+|---|---|---|
+| mobvoi_wenet | [Plot](graphs/bjy819_timeseries_mobvoi_wenet.png) | [Reflection](bjy819_reflection_mobvoi_wenet.md) |
+| pbs-assess_gfsynopsis | [Plot](graphs/bjy819_timeseries_pbs-assess_gfsynopsis.png) | [Reflection](bjy819_reflection_pbs-assess_gfsynopsis.md) |
+| pmlmodelling_ersem | [Plot](graphs/bjy819_timeseries_pmlmodelling_ersem.png) | [Reflection](bjy819_reflection_pmlmodelling_ersem.md) |
+| vearch_vearch | [Plot](graphs/bjy819_timeseries_vearch_vearch.png) | [Reflection](bjy819_reflection_vearch_vearch.md) |
+| hannorein_rebound | [Plot](graphs/bjy819_timeseries_hannorein_rebound.png) | [Reflection](bjy819_reflection_hannorein_rebound.md) |
+| soedinglab_mmseqs2 | [Plot](graphs/bjy819_timeseries_soedinglab_mmseqs2.png) | [Reflection](bjy819_reflection_soedinglab_mmseqs2.md) |
+| hpddm_hpddm | [Plot](graphs/bjy819_timeseries_hpddm_hpddm.png) | [Reflection](bjy819_reflection_hpddm_hpddm.md) |
+| stephenslab_mr.mash.alpha | [Plot](graphs/bjy819_timeseries_stephenslab_mr.mash.alpha.png) | [Reflection](bjy819_reflection_stephenslab_mr.mash.alpha.md) |
+| gem_oq-engine | [Plot](graphs/bjy819_timeseries_gem_oq-engine.png) | [Reflection](bjy819_reflection_gem_oq-engine.md) |
+| sixin-zh_kymatio_wph | [Plot](graphs/bjy819_timeseries_sixin-zh_kymatio_wph.png) | [Reflection](bjy819_reflection_sixin-zh_kymatio_wph.md) |
+
+## Running the notebooks
+
+Open notebooks from this folder. The retrieval notebook defaults to loading saved files, so reviewing does not require repeating API requests. Run bjy819_vis.ipynb to rebuild monthly counts, plots and gap samples; its stats update preserves the reviewed text fields.
+
+---
+
+## Original assignment
+
 # MP2 OSS Activity Analysis
 
 ### Overall research objective: Study commit patterns over time for scientific software projects.
